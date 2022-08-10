@@ -1,9 +1,9 @@
 == Simplifii ==
-Contributors: Leo Gopal
+Contributors: leogopal
 Requires at least: 5.9
 Requires PHP: 7.4
-Tested up to: 5.9
-Stable tag: 1.0.1
+Tested up to: 6.0
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -18,16 +18,15 @@ and the Tove Blocks theme which licensed by GPLv2 or later(https://wordpress.org
 
 Simplifii bundles the following third-party resources:
 
-Noto Sans
+Font from Google Fonts, Noto Sans
 License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
 Source: https://fonts.google.com/noto/specimen/Noto+Sans
 
-Code from Blockbase
-Copyright (c) 2021 Automattic Inc.
+Code from Blockbase, Copyright (c) 2021 Automattic Inc.
 License: GPLv2, https://www.gnu.org/licenses/gpl-2.0.html
 Source: https://wordpress.org/themes/blockbase/
 Included as part of:
-	- simplifii_get_google_fonts_url(), for building a Google Fonts request URL from fonts set in theme.json
+- `simplifii_get_google_fonts_url()`, for building a Google Fonts request URL from fonts set in theme.json
 
 == Changelog ==
 Current version.
