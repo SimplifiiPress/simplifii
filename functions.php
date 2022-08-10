@@ -46,11 +46,6 @@ if ( ! function_exists( 'simplifii_styles' ) ) {
 	function simplifii_styles() {
 
 		wp_register_style(
-			'simplifii-styles-google-fonts',
-			simplifii_get_google_fonts_url()
-		);
-
-		wp_register_style(
 			'simplifii-styles-blocks',
 			get_template_directory_uri() . '/assets/css/blocks.css'
 		);
@@ -63,7 +58,6 @@ if ( ! function_exists( 'simplifii_styles' ) ) {
 		$dependencies = apply_filters(
 			'simplifii_style_dependencies',
 			array(
-				'simplifii-styles-google-fonts',
 				'simplifii-styles-blocks',
 				'simplifii-styles-commons',
 			)
@@ -75,6 +69,7 @@ if ( ! function_exists( 'simplifii_styles' ) ) {
 			$dependencies,
 			wp_get_theme( 'simplifii' )->get( 'Version' )
 		);
+
 	}
 
 	add_action( 'wp_enqueue_scripts', 'simplifii_styles' );
@@ -90,65 +85,13 @@ if ( ! function_exists( 'simplifii_editor_styles' ) ) {
 			array(
 				'./assets/css/editor.css',
 				'./assets/css/blocks.css',
-				'./assets/css/commons.css',
-				simplifii_get_google_fonts_url(),
+				'./assets/css/commons.css'
 			)
 		);
 
 	}
 
 	add_action( 'admin_init', 'simplifii_editor_styles' );
-}
-
-if ( ! function_exists( 'simplifii_get_google_fonts_url' ) ) {
-	/**
-	 * Get Google Fonts URL
-	 *
-	 * Builds a Google Fonts request URL from the Google Fonts families used in theme.json.
-	 * Based on a solution in the Blockbase and Tove theme (see readme.txt for licensing info).
-	 *
-	 * @return $simplifii_google_fonts_url
-	 */
-	function simplifii_get_google_fonts_url() {
-
-		if ( ! class_exists( 'WP_Theme_JSON_Resolver_Gutenberg' ) ) {
-			return '';
-		}
-
-		$theme_data = WP_Theme_JSON_Resolver_Gutenberg::get_merged_data()->get_settings();
-
-		if ( empty( $theme_data['typography']['fontFamilies'] ) ) {
-			return '';
-		}
-
-		$theme_families = ! empty( $theme_data['typography']['fontFamilies']['theme'] ) ? $theme_data['typography']['fontFamilies']['theme'] : array();
-
-		$user_families = ! empty( $theme_data['typography']['fontFamilies']['user'] ) ? $theme_data['typography']['fontFamilies']['user'] : array();
-
-		$font_families = array_merge( $theme_families, $user_families );
-
-		if ( ! $font_families ) {
-			return '';
-		}
-
-		$font_family_urls = array();
-
-		foreach ( $font_families as $font_family ) {
-			if ( ! empty( $font_family['google'] ) ) {
-				$font_family_urls[] = $font_family['google'];
-			}
-		}
-
-		if ( ! $font_family_urls ) {
-			return '';
-		}
-
-		// Return a single request URL for all of the font families.
-		return apply_filters(
-			'simplifii_google_fonts_url',
-			esc_url_raw( 'https://fonts.googleapis.com/css2?' . implode( '&', $font_family_urls ) . '&display=swap' )
-		);
-	}
 }
 
 /**

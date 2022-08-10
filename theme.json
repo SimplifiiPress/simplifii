@@ -53,7 +53,7 @@
       ]
     },
     "custom": {
-      "font-primary": "var( --wp--preset--font-family--noto-sans )",
+      "font-primary": "var( --wp--preset--font-family--system-sans-serif )",
       "font-weight": {
         "normal": 400,
         "bold": 700
@@ -164,13 +164,7 @@
           "name": "Heading 6"
         }
       ],
-      "fontFamilies": [
-        {
-          "fontFamily": "\"Noto Sans JP\", sans-serif",
-          "slug": "noto-sans",
-          "name": "Noto Sans",
-          "google": "family=Noto+Sans+JP:wght@100;300;400;700"
-        },
+      "fontFamilies": [ 
         {
           "fontFamily": "\"Helvetica Neue\", \"Helvetica\", \"Hiragino Sans\", \"Hiragino Kaku Gothic ProN\", \"Arial\", \"Yu Gothic\", \"Meiryo\", sans-serif",
           "slug": "system-sans-serif",
