@@ -78,7 +78,7 @@
 			"wideSize": "1100px"
 		},
 		"spacing": {
-			"blockGap": true,
+			"blockGap": null,
 			"spacingScale": {
                 "operator": "*",
                 "increment": 1.5,

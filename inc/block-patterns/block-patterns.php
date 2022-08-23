@@ -25,6 +25,9 @@ if ( ! function_exists( 'simplifii_register_block_patterns' ) ) {
 				'simplifii-cta' => array(
 					'label' => esc_html( 'Simplifii Call to Action', 'simplifii' ),
 				),
+				'simplifii-cta-simple' => array(
+					'label' => esc_html( 'Simplifii Simple Call to Action', 'simplifii' ),
+				),
 			)
 		);
 
@@ -85,6 +88,16 @@ if ( ! function_exists( 'simplifii_register_block_patterns' ) ) {
 					'categories'    => array( 'simplifii-cta' ),
 					'viewportWidth' => $viewport['wide'],
 					'content'       => simplifii_get_block_pattern_markup( 'cta/left-button-right-text' ),
+				),
+
+				/*
+				 * cta/left-button-right-text
+				 */
+				'simplifii/cta-simple' => array(
+					'title'         => esc_html( 'Simple Simple Call to Action', 'simplifii' ),
+					'categories'    => array( 'simplifii-cta-simple' ),
+					'viewportWidth' => $viewport['wide'],
+					'content'       => simplifii_get_block_pattern_markup( 'cta-simple/simple' ),
 				),
 
 			)

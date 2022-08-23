@@ -551,15 +551,6 @@ h6.has-background {
   margin-bottom: 0;
 }
 
-.wp-block-navigation ul li {
-  list-style: none;
-  padding: 10px;
-}
-
-.wp-block-navigation .wp-block-navigation-item__content {
-  display: block;
-  padding: 10px;
-}
 /*--------------------------------------------------------------
     Block : Paragraph
 --------------------------------------------------------------*/
