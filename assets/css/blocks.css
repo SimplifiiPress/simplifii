@@ -490,68 +490,7 @@ h6.has-background {
 :root .wp-block-media-text__content > *:last-child {
   margin-bottom: 0;
 }
-/*--------------------------------------------------------------
-    Block : Navigation
---------------------------------------------------------------*/
-.wp-block-navigation-item {
-  line-height: var(--wp--custom--line-height--heading);
-  margin: 0;
-  padding: 10px;
-}
-.wp-block-navigation .current-menu-item,
-.wp-block-navigation .wp-block-navigation-link a:hover,
-.wp-block-navigation .wp-block-navigation-link a:focus {
-  text-decoration: underline;
-}
-/* Type : Vertical */
-.is-vertical .wp-block-navigation__container,
-.is-vertical .wp-block-page-list {
-  display: flex;
-  gap: 0.5em;
-}
-/* Sub Level */
-/* Navigation Button */
-.wp-block-navigation__responsive-container-open,
-.wp-block-navigation__responsive-container-close {
-  align-items: center;
-  background-color: var(--wp--preset--color--accent-color);
-  box-shadow: none;
-  color: var(--wp--preset--color--white);
-  height: 36px;
-  width: 36px;
-}
-.wp-block-navigation__responsive-container-open svg,
-.wp-block-navigation__responsive-container-close svg {
-  height: 36px;
-  width: 36px;
-  padding: 6px;
-}
-.wp-block-navigation__responsive-container-close {
-  right: var(--wp--custom--spacing--base);
-  top: var(--wp--custom--spacing--base);
-}
-/* Responsive Container */
-.wp-block-navigation:not(.has-background) .wp-block-navigation__responsive-container.is-menu-open {
-  background-color: var(--wp--preset--color--background);
-  color: var(--wp--preset--color--accent-color);
-  margin-top: 0;
-  margin-bottom: 0;
-  height: 100vh;
-}
-.wp-block-navigation .wp-block-navigation__responsive-container.is-menu-open li.has-child > a {
-  margin-bottom: calc(0.5 * var(--wp--custom--spacing--base));
-}
-.wp-block-navigation__responsive-container.is-menu-open a:focus {
-  text-decoration: underline !important;
-  -webkit-text-decoration-style: dotted;
-  text-decoration-style: dotted;
-}
-.wp-block-navigation .wp-block-search {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-/*--------------------------------------------------------------
+/*---------------------------------------
     Block : Paragraph
 --------------------------------------------------------------*/
 p.has-background {
