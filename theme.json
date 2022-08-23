@@ -331,6 +331,14 @@
 					"lineHeight": "var( --wp--custom--line-height--heading )"
 				}
 			},
+			"core/navigation": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|primary",
+					"fontSize": "var:preset|font-size|normal",
+					"fontStyle": "normal",
+					"fontWeight": "600"
+				}
+			},
 			"core/paragraph": {
 				"spacing": {
 					"margin": {
