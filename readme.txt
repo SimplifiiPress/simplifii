@@ -23,7 +23,7 @@ License: GPLv2, https://www.gnu.org/licenses/gpl-2.0.html
 Source: https://wordpress.org/themes/blockbase/
 
 == Changelog ==
-= 1.0.4 =
+= 1.0.5 =
 * New simple CTA pattern added
 
 = 1.0.4 =
