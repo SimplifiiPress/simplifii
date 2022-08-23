@@ -1,4 +1,5 @@
-{
+{	
+	"version": 2,
 	"settings": {
 		"color": {
 			"link": true,
@@ -454,6 +455,5 @@
 			"letterSpacing": "var( --wp--custom--letter-spacing--body )",
 			"lineHeight": "var( --wp--custom--line-height--body )"
 		}
-	},
-	"version": 2
+	}
 }

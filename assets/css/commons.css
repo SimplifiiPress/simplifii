@@ -209,6 +209,6 @@ pre {
     margin-top: calc(1.5 * var(--wp--custom--spacing--base));
   }
   .l-site-content {
-    padding: 0;
+    padding: 10px;
   }
 }
