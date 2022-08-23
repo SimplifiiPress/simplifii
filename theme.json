@@ -89,6 +89,49 @@
 			"customFontSize": true,
 			"fontFamilies": [
 				{
+					"fontFace": [
+						{
+							"fontFamily": "Noto Serif",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/noto_serif/NotoSerif-Regular.ttf"
+							]
+						},
+						{
+							"fontFamily": "Noto Serif",
+							"fontStretch": "normal",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/noto_serif/NotoSerif-Italic.ttf"
+							]
+						},
+						{
+							"fontFamily": "Noto Serif",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/noto_serif/NotoSerif-Bold.ttf"
+							]
+						},
+						{
+							"fontFamily": "Noto Serif",
+							"fontStretch": "normal",
+							"fontStyle": "italic",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/noto_serif/NotoSerif-BoldItalic.ttf"
+							]
+						}
+					],
+					"fontFamily": "\"Noto Serif\", sans-serif",
+					"name": "Noto Serif",
+					"slug": "primary"
+				},
+				{
 					"fontFamily": "\"Helvetica Neue\", \"Helvetica\", \"Hiragino Sans\", \"Hiragino Kaku Gothic ProN\", \"Arial\", \"Yu Gothic\", \"Meiryo\", sans-serif",
 					"name": "System Sans Serif",
 					"slug": "system-sans-serif"
@@ -396,7 +439,7 @@
 			}
 		},
 		"typography": {
-			"fontFamily": "var( --wp--custom--font-primary )",
+			"fontFamily": "var(--wp--preset--font-family--primary)",
 			"fontSize": "var( --wp--preset--font-size--normal )",
 			"letterSpacing": "var( --wp--custom--letter-spacing--body )",
 			"lineHeight": "var( --wp--custom--line-height--body )"
