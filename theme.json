@@ -1,6 +1,11 @@
 {	
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
 	"version": 2,
+	"patterns": [ 
+		"header-3", 
+		"partner-logos",
+		"black-bg-footer-with-social-icon"
+	],
 	"settings": {
 		"appearanceTools": true,
 		"color": {
