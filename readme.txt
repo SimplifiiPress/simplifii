@@ -2,8 +2,8 @@
 Contributors: leogopal
 Requires at least: 5.9
 Requires PHP: 7.4
-Tested up to: 6.1
-Stable tag: 1.0.4
+Tested up to: 6.0
+Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -25,5 +25,6 @@ Source: https://wordpress.org/themes/blockbase/
 == Changelog ==
 
 = 1.0.4 =
-* Improvements to site layout and spacing (basic design)
-* Added support for fluid typography.
+* General styling improvements
+* Fluid typography support
+* Noto Serif font locally added.
