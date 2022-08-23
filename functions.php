@@ -93,17 +93,3 @@ if ( ! function_exists( 'simplifii_editor_styles' ) ) {
 
 	add_action( 'admin_init', 'simplifii_editor_styles' );
 }
-
-/**
- * Block patterns.
- */
-if ( function_exists( 'register_block_pattern' ) ) {
-	require get_template_directory() . '/inc/block-patterns/block-patterns.php';
-}
-
-/**
- * Block styles..
- */
-if ( function_exists( 'register_block_style' ) ) {
-	require get_template_directory() . '/inc/block-styles/block-styles.php';
-}
