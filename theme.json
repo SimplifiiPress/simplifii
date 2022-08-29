@@ -1,45 +1,28 @@
 {
-	"templateParts": [
-		{
-			"name": "header",
-			"title": "Header",
-			"area": "header"
-		},
-		{
-			"name": "headerblack",
-			"title": "Dark Simple Header",
-			"area": "header"
-		},
-		{
-			"name": "footer",
-			"title": "Default Footer",
-			"area": "footer"
-		}
-	],
 	"customTemplates": [
 		{
 			"name": "blank",
-			"title": "Blank",
 			"postTypes": [
 				"page",
 				"post"
-			]
+			],
+			"title": "Blank"
 		},
 		{
 			"name": "no-title",
-			"title": "Page without title",
 			"postTypes": [
 				"page",
 				"post"
-			]
+			],
+			"title": "Page without title"
 		},
 		{
 			"name": "page-sticky",
-			"title": "Page with sticky columns",
 			"postTypes": [
 				"page",
 				"post"
-			]
+			],
+			"title": "Page with sticky columns"
 		}
 	],
 	"patterns": [
@@ -555,5 +538,22 @@
 			"lineHeight": "var( --wp--custom--line-height--body )"
 		}
 	},
+	"templateParts": [
+		{
+			"area": "header",
+			"name": "header",
+			"title": "Header"
+		},
+		{
+			"area": "header",
+			"name": "headerblack",
+			"title": "Dark Simple Header"
+		},
+		{
+			"area": "footer",
+			"name": "footer",
+			"title": "Default Footer"
+		}
+	],
 	"version": 2
 }
