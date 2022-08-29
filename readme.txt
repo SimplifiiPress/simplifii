@@ -3,7 +3,7 @@ Contributors: leogopal
 Requires at least: 6.0.1
 Requires PHP: 7.4
 Tested up to: 6.0.1
-Stable tag: 1.0.7
+Stable tag: 1.1.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -24,6 +24,9 @@ License: GPLv2, https://www.gnu.org/licenses/gpl-2.0.html
 Source: https://wordpress.org/themes/blockbase/
 
 == Changelog ==
+= 1.1.0 =
+* WooCommerce support.
+
 = 1.0.5 =
 * New simple CTA pattern added
 
