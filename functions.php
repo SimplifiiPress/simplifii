@@ -19,6 +19,8 @@ if ( ! function_exists( 'simplifii_setup' ) ) {
 
 		// Add support for responsive embedded content.
 		add_theme_support( 'responsive-embeds' );
+ 		
+		add_theme_support( 'woocommerce' );
 
 		// Add support for editor styles.
 		add_theme_support( 'editor-styles' );
