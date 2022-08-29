@@ -1,4 +1,47 @@
 {
+	"templateParts": [
+		{
+			"name": "header",
+			"title": "Header",
+			"area": "header"
+		},
+		{
+			"name": "headerblack",
+			"title": "Dark Simple Header",
+			"area": "header"
+		},
+		{
+			"name": "footer",
+			"title": "Default Footer",
+			"area": "footer"
+		}
+	],
+	"customTemplates": [
+		{
+			"name": "blank",
+			"title": "Blank",
+			"postTypes": [
+				"page",
+				"post"
+			]
+		},
+		{
+			"name": "no-title",
+			"title": "Page without title",
+			"postTypes": [
+				"page",
+				"post"
+			]
+		},
+		{
+			"name": "page-sticky",
+			"title": "Page with sticky columns",
+			"postTypes": [
+				"page",
+				"post"
+			]
+		}
+	],
 	"patterns": [
 		"header-3",
 		"partner-logos",

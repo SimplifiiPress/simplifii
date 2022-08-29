@@ -1,9 +1,9 @@
 == Simplifii ==
 Contributors: leogopal
-Requires at least: 5.9
+Requires at least: 6.0.1
 Requires PHP: 7.4
-Tested up to: 6.0
-Stable tag: 1.0.6
+Tested up to: 6.0.1
+Stable tag: 1.0.7
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -13,7 +13,8 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 3. Activate the theme
 
 == Licenses ==
-Simplifii is derived from the TT1 Blocks theme, Copyright (c) 2020 WordPress.org.
+Simplifii is derived from the TT1 Blocks theme, 
+Copyright (c) 2020 WordPress.org.
 and the Tove Blocks theme which licensed by GPLv2 or later(https://wordpress.org/themes/tove/).
 
 Simplifii bundles the following third-party resources:
