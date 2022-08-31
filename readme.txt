@@ -12,16 +12,20 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 2. Make sure the Gutenberg plugin (version 11.5 or newer) is active
 3. Activate the theme
 
-== Licenses ==
-Simplifii is derived from the TT1 Blocks theme, 
-Copyright (c) 2020 WordPress.org.
-and the Tove Blocks theme which licensed by GPLv2 or later(https://wordpress.org/themes/tove/).
+== Copyright ==
 
-Simplifii bundles the following third-party resources:
+Simplifii WordPress Theme, (C) 2022 wordpressdotorg
+Simplifii is distributed under the terms of the GNU GPL.
 
-Code from Blockbase, Copyright (c) 2021 Automattic Inc.
-License: GPLv2, https://www.gnu.org/licenses/gpl-2.0.html
-Source: https://wordpress.org/themes/blockbase/
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
 
 == Changelog ==
 = 1.1.0 =
