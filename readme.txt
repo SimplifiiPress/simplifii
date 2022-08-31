@@ -1,12 +1,24 @@
 == Simplifii ==
 Contributors: leogopal
+Author URI: http://leogopal.com/
+Plugin URL: http://simplifii.leogopal.dev
 Requires at least: 6.0
 Requires PHP: 7.4
 Tested up to: 6.1
 Stable tag: 1.1.1
+Tags: blog, grid-layout, one-column, two-columns, three-columns, four-columns, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, sticky-post, threaded-comments, translation-ready, block-styles, wide-blocks, full-site-editing, e-commerce, block-patterns
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: simplifii
+
+Simplifii is a versatile block-based WordPress theme with Full Site Editing allowing you to customise to your hearts content - with WooCommerce support.
+You must have the Gutenberg Plugin Activate to use this theme before ready for full site editing on released WordPress.
+
+== Description ==
+
+The theme check plugin is an easy way to test your theme and make sure it's up to spec with the latest [theme review](https://make.wordpress.org/themes/handbook/review/) standards. With it, you can run all the same automated testing tools on your theme that WordPress.org uses for theme submissions.
+
+The tests are run through a simple admin menu and all results are displayed at once. This is very handy for theme developers, or anybody looking to make sure that their theme supports the latest WordPress theme standards and practices.
 
 == Installation ==
 
@@ -43,7 +55,16 @@ Some theme features / PRs may require Gutenberg trunk and will be described or t
 - [Block Theme documentation](https://developer.wordpress.org/block-editor/how-to-guides/themes/block-theme-overview)
 - [Global Styles & theme.json documentation](https://developer.wordpress.org/block-editor/how-to-guides/themes/theme-json/)
 
+== Upgrade Notice ==
+
+== Screenshots ==
+
+== Frequently Asked Questions ==
+
 == Changelog ==
+= 1.1.1 =
+* Development focused updates and github actions.
+
 = 1.1.0 =
 * WooCommerce support.
 
