@@ -1,5 +1,29 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
+		"customTemplates": [
+		{
+			"name": "blank",
+			"postTypes": [
+				"page",
+				"post"
+			],
+			"title": "Blank"
+		},
+		{
+			"name": "blog-alternative",
+			"postTypes": [
+				"page"
+			],
+			"title": "Blog (Alternative)"
+		},
+		{
+			"name": "404",
+			"postTypes": [
+				"page"
+			],
+			"title": "404"
+		}
+	],
 	"patterns": [
 		"header-3",
 		"partner-logos",

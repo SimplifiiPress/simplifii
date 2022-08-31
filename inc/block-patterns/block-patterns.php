@@ -22,7 +22,7 @@ if ( ! function_exists( 'simplifii_register_block_patterns' ) ) {
 		$simplifii_block_pattern_categories = apply_filters(
 			'simplifii_block_pattern_categories',
 			array(
-				'simplifii-cta' => array(
+				'simplifii-cta'        => array(
 					'label' => esc_html( 'Simplifii Call to Action', 'simplifii' ),
 				),
 				'simplifii-cta-simple' => array(
@@ -93,7 +93,7 @@ if ( ! function_exists( 'simplifii_register_block_patterns' ) ) {
 				/*
 				 * cta/left-button-right-text
 				 */
-				'simplifii/cta-simple' => array(
+				'simplifii/cta-simple'                 => array(
 					'title'         => esc_html( 'Simple Simple Call to Action', 'simplifii' ),
 					'categories'    => array( 'simplifii-cta-simple' ),
 					'viewportWidth' => $viewport['wide'],
