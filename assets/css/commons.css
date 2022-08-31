@@ -225,7 +225,6 @@ transition: opacity .1s linear;
 visibility: hidden;
 width: 0;
 z-index: 2;
-}
 user agent stylesheet
 ul ul {
 list-style-type: circle;
@@ -381,4 +380,5 @@ box-sizing: inherit;
 .wp-block-navigation .has-child .wp-block-navigation__submenu-container {
   background-color: black;
   color: wheat;
+}
 }
