@@ -1,0 +1,160 @@
+# Copyright (C) 2022 Leo Gopal
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Simplifii 1.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/marketers-delight\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-08-31T13:57:12+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: md\n"
+
+#. Theme Name of the theme
+msgid "Simplifii"
+msgstr ""
+
+#. Theme URI of the theme
+msgid "https://github.com/leogopal/simplifii"
+msgstr ""
+
+#. Description of the theme
+msgid "This theme is designed as a block theme to support WordPress full site editing. You must have the Gutenberg Plugin Activate to use this theme before ready for full site editing on released WordPress."
+msgstr ""
+
+#. Author of the theme
+msgid "Leo Gopal"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://leogopal.com"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Tiny"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Small"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Normal"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Extra large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Huge"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Gigantic"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Heading 1"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Heading 2"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Heading 3"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Heading 4"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Heading 5"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Heading 6"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Noto Serif"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "System Sans Serif"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "System Serif"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "System Monospace"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "White"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Background"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Text color"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Accent color"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Sub accent color"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Recommended color 01"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Recommended color 02"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Recommended color 03"
+msgstr ""
