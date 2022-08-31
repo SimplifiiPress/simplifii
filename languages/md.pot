@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2022-08-31T21:53:02+00:00\n"
+"POT-Creation-Date: 2022-08-31T21:55:33+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.6.0\n"
 "X-Domain: md\n"
@@ -19,11 +19,11 @@ msgid "Simplifii"
 msgstr ""
 
 #. Theme URI of the theme
-msgid "https://github.com/leogopal/simplifii"
+msgid "https://simplifii.leogopal.dev"
 msgstr ""
 
 #. Description of the theme
-msgid "This theme is designed as a block theme to support WordPress full site editing. You must have the Gutenberg Plugin Activate to use this theme before ready for full site editing on released WordPress."
+msgid "Simplifii is a versatile block-based WordPress theme with Full Site Editing allowing you to customise to your hearts content - with WooCommerce support. You must have the Gutenberg Plugin Activate to use this theme before ready for full site editing on released WordPress."
 msgstr ""
 
 #. Author of the theme
