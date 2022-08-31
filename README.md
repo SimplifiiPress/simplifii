@@ -1,22 +1,12 @@
 # Simplifii WordPress FSE Theme
 
-![Auto Assign](https://github.com/leogopal/simplifii/actions/workflows/auto-assign.yml/badge.svg)
-
-![Code Quality](https://github.com/leogopal/simplifii/actions/workflows/lint.yml/badge.svg)
-
-![Codespaces Prebuilds](https://github.com/leogopal/simplifii/actions/workflows/codespaces/create_codespaces_prebuilds/badge.svg)
-
-![DevSkim](https://github.com/leogopal/simplifii/actions/workflows/devskim.yml/badge.svg)
-
-![Generate POT file](https://github.com/leogopal/simplifii/actions/workflows/pot.yml/badge.svg)
-
-![pages-build-deployment](https://github.com/leogopal/simplifii/actions/workflows/pages/pages-build-deployment/badge.svg)
+![Auto Assign](https://github.com/leogopal/simplifii/actions/workflows/auto-assign.yml/badge.svg) ![Code Quality](https://github.com/leogopal/simplifii/actions/workflows/lint.yml/badge.svg) ![Codespaces Prebuilds](https://github.com/leogopal/simplifii/actions/workflows/codespaces/create_codespaces_prebuilds/badge.svg) ![DevSkim](https://github.com/leogopal/simplifii/actions/workflows/devskim.yml/badge.svg) ![Generate POT file](https://github.com/leogopal/simplifii/actions/workflows/pot.yml/badge.svg) ![pages-build-deployment](https://github.com/leogopal/simplifii/actions/workflows/pages/pages-build-deployment/badge.svg)
 
 This theme is designed as a block theme to support WordPress full site editing. You must have the Gutenberg Plugin Activate to use this theme before ready for full site editing on released WordPress.
 
 > ### [**Get the Simplifii theme on WordPress.org →**](https://wordpress.org/themes/simplifii/)
-> 
-> ![](https://user-images.githubusercontent.com/4948323/187800730-b4e58dda-c100-4e3d-892d-d58d79631c91.png)
+
+![Simplifii on WordPress.org](https://user-images.githubusercontent.com/4948323/187800730-b4e58dda-c100-4e3d-892d-d58d79631c91.png)
 
 ## About
 
