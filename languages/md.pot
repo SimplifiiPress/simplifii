@@ -2,14 +2,14 @@
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Simplifii 1.1.0\n"
+"Project-Id-Version: Simplifii 1.1.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/marketers-delight\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2022-08-31T20:43:28+00:00\n"
+"POT-Creation-Date: 2022-08-31T21:29:50+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.6.0\n"
 "X-Domain: md\n"
@@ -35,71 +35,6 @@ msgid "https://leogopal.com"
 msgstr ""
 
 #: theme.json
-msgctxt "Font size name"
-msgid "Tiny"
-msgstr ""
-
-#: theme.json
-msgctxt "Font size name"
-msgid "Small"
-msgstr ""
-
-#: theme.json
-msgctxt "Font size name"
-msgid "Normal"
-msgstr ""
-
-#: theme.json
-msgctxt "Font size name"
-msgid "Large"
-msgstr ""
-
-#: theme.json
-msgctxt "Font size name"
-msgid "Extra large"
-msgstr ""
-
-#: theme.json
-msgctxt "Font size name"
-msgid "Huge"
-msgstr ""
-
-#: theme.json
-msgctxt "Font size name"
-msgid "Gigantic"
-msgstr ""
-
-#: theme.json
-msgctxt "Font size name"
-msgid "Heading 1"
-msgstr ""
-
-#: theme.json
-msgctxt "Font size name"
-msgid "Heading 2"
-msgstr ""
-
-#: theme.json
-msgctxt "Font size name"
-msgid "Heading 3"
-msgstr ""
-
-#: theme.json
-msgctxt "Font size name"
-msgid "Heading 4"
-msgstr ""
-
-#: theme.json
-msgctxt "Font size name"
-msgid "Heading 5"
-msgstr ""
-
-#: theme.json
-msgctxt "Font size name"
-msgid "Heading 6"
-msgstr ""
-
-#: theme.json
 msgctxt "Font family name"
 msgid "Noto Serif"
 msgstr ""
@@ -120,43 +55,48 @@ msgid "System Monospace"
 msgstr ""
 
 #: theme.json
-msgctxt "Color name"
-msgid "White"
+msgctxt "Font family name"
+msgid "DM Sans"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "IBM Plex Mono"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "System Font"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Source Serif Pro"
 msgstr ""
 
 #: theme.json
 msgctxt "Color name"
-msgid "Background"
+msgid "Base"
 msgstr ""
 
 #: theme.json
 msgctxt "Color name"
-msgid "Text color"
+msgid "Contrast"
 msgstr ""
 
 #: theme.json
 msgctxt "Color name"
-msgid "Accent color"
+msgid "Primary"
 msgstr ""
 
 #: theme.json
 msgctxt "Color name"
-msgid "Sub accent color"
+msgid "Secondary"
 msgstr ""
 
 #: theme.json
 msgctxt "Color name"
-msgid "Recommended color 01"
-msgstr ""
-
-#: theme.json
-msgctxt "Color name"
-msgid "Recommended color 02"
-msgstr ""
-
-#: theme.json
-msgctxt "Color name"
-msgid "Recommended color 03"
+msgid "Tertiary"
 msgstr ""
 
 #: theme.json
@@ -172,4 +112,44 @@ msgstr ""
 #: theme.json
 msgctxt "Custom template name"
 msgid "404"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Single Post"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Single Product"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Footer"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Comments"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Black Footer"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Black Header"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Search"
 msgstr ""
