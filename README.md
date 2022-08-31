@@ -1,6 +1,10 @@
 # Simplifii WordPress FSE Theme
 
+[![Auto Assign](https://github.com/leogopal/simplifii/actions/workflows/auto-assign.yml/badge.svg)](https://github.com/leogopal/simplifii/actions/workflows/auto-assign.yml) [![Code Quality](https://github.com/leogopal/simplifii/actions/workflows/lint.yml/badge.svg)](https://github.com/leogopal/simplifii/actions/workflows/lint.yml) [![Codespaces Prebuilds](https://github.com/leogopal/simplifii/actions/workflows/codespaces/create_codespaces_prebuilds/badge.svg)](https://github.com/leogopal/simplifii/actions/workflows/codespaces/create_codespaces_prebuilds) [![DevSkim](https://github.com/leogopal/simplifii/actions/workflows/devskim.yml/badge.svg)](https://github.com/leogopal/simplifii/actions/workflows/devskim.yml) [![Generate POT file](https://github.com/leogopal/simplifii/actions/workflows/pot.yml/badge.svg)](https://github.com/leogopal/simplifii/actions/workflows/pot.yml) [![pages-build-deployment](https://github.com/leogopal/simplifii/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/leogopal/simplifii/actions/workflows/pages/pages-build-deployment)
+
 This theme is designed as a block theme to support WordPress full site editing. You must have the Gutenberg Plugin Activate to use this theme before ready for full site editing on released WordPress.
+
+
 
 ## About
 
