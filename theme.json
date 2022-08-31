@@ -51,13 +51,6 @@
 				"product"
 			],
 			"title": "Single Product"
-		},
-		{
-			"name": "single-product",
-			"postTypes": [
-				"product"
-			],
-			"title": "Single Product"
 		}
 	],
 	"settings": {
@@ -88,6 +81,46 @@
 					"color": "#F6F6F6",
 					"name": "Tertiary",
 					"slug": "tertiary"
+				},
+				{
+					"color": "#ffffff",
+					"name": "White",
+					"slug": "white"
+				},
+				{
+					"color": "#f4f4f4",
+					"name": "Background",
+					"slug": "background"
+				},
+				{
+					"color": "#333333",
+					"name": "Text color",
+					"slug": "text-color"
+				},
+				{
+					"color": "#082A40",
+					"name": "Accent color",
+					"slug": "accent-color"
+				},
+				{
+					"color": "#163A59",
+					"name": "Sub accent color",
+					"slug": "sub-accent-color"
+				},
+				{
+					"color": "#2C5273",
+					"name": "Recommended color 01",
+					"slug": "recommended-color-01"
+				},
+				{
+					"color": "#7790A6",
+					"name": "Recommended color 02",
+					"slug": "recommended-color-02"
+				},
+				{
+					"color": "#B8CAD9",
+					"name": "Recommended color 03",
+					"slug": "recommended-color-03"
 				}
 			]
 		},
@@ -772,6 +805,16 @@
 			"area": "footer",
 			"name": "footer",
 			"title": "Footer"
+		},
+		{
+			"area": "header",
+			"name": "black-header",
+			"title": "Black Header"
+		},
+		{
+			"area": "footer",
+			"name": "black-footer",
+			"title": "Black Footer"
 		},
 		{
 			"area": "uncategorized",
