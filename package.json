@@ -26,5 +26,9 @@
 		"lint:css:fix": "stylelint **/*.css -i .gitignore --fix",
 		"lint:php": "./vendor/bin/phpcs",
 		"lint:php:fix": "./bin/phpcbf.sh"
+	},
+	"dependencies": {
+		"@wordpress/postcss-plugins-preset": "^4.0.0",
+		"@wordpress/postcss-themes": "^5.0.0"
 	}
 }
