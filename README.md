@@ -6,7 +6,7 @@ This theme is designed as a block theme to support WordPress full site editing. 
 
 > ### [**Get the Simplifii theme on WordPress.org →**](https://wordpress.org/themes/simplifii/)
 
-![Simplifii on WordPress.org](https://user-images.githubusercontent.com/4948323/187800730-b4e58dda-c100-4e3d-892d-d58d79631c91.png)
+![screenshot](https://user-images.githubusercontent.com/4948323/187812605-6ba0c71d-a08c-4123-91eb-42ff7373ba89.png)
 
 ## About
 
