@@ -2,8 +2,8 @@
 Contributors: leogopal
 Author URI: http://leogopal.com/
 Plugin URL: http://simplifii.leogopal.dev
-Requires at least: 6.0
-Requires PHP: 7.4
+Requires at least: >6.0
+Requires PHP: >7.4
 Tested up to: 6.1
 Stable tag: 1.1.1
 Tags: blog, grid-layout, one-column, two-columns, three-columns, four-columns, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, sticky-post, threaded-comments, translation-ready, block-styles, wide-blocks, full-site-editing, e-commerce, block-patterns
