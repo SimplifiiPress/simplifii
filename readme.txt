@@ -50,7 +50,7 @@ Some theme features / PRs may require Gutenberg trunk and will be described or t
 
 == Resources ==
 
-- [Simplifii Figma Mockups](https://www.figma.com/community/file/1139275543113752375)
+- [Simplifii Figma Mockups](https://www.figma.com/file/OxgciXlJT84BH1083xFjCY/Simplifii-Theme?node-id=301%3A469)
 - [Create Block Theme plugin](https://github.com/WordPress/create-block-theme)
 - [Block Theme documentation](https://developer.wordpress.org/block-editor/how-to-guides/themes/block-theme-overview)
 - [Global Styles & theme.json documentation](https://developer.wordpress.org/block-editor/how-to-guides/themes/theme-json/)

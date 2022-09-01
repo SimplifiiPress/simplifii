@@ -26,17 +26,17 @@ A big part of Simplifii is to emphasize a diverse collection of style variations
 
 This can be done a few different ways, including:
 
-*   Create an alternate theme.json file to the one provided by the theme and change values directly in the code.
-*   Make changes in the Global Styles panel in the Site Editor. You can save these changes as a new style variation using the [Create Block Theme plugin](https://wordpress.org/plugins/create-block-theme/).
-*   Design static mockups in Figma or a similar program.
+- Create an alternate theme.json file to the one provided by the theme and change values directly in the code.
+- Make changes in the Global Styles panel in the Site Editor. You can save these changes as a new style variation using the [Create Block Theme plugin](https://wordpress.org/plugins/create-block-theme/).
+- Design static mockups in Figma or a similar program.
 
 #### Submit your style variation
 
 When you're ready to submit, please create a new issue and share your designs:
 
-*   Theme.json files can be submitted as code or as zip files.
-*   Add images that showcase the look & feel of the variation.
-*   Include a style guide with design specifications — this should include details on typography, colors, spacing, etc. Here’s an [example](https://www.figma.com/community/file/1136340417938880987).
+- Theme.json files can be submitted as code or as zip files.
+- Add images that showcase the look & feel of the variation.
+- Include a style guide with design specifications — this should include details on typography, colors, spacing, etc. Here’s an [example](https://www.figma.com/community/file/1136340417938880987).
 
 ### Getting Started
 
@@ -48,23 +48,23 @@ To get started with development:
 
 ### Tips for Contributors
 
-*   Similar to Simplifii, a goal for the theme is to have as little CSS as possible. Much of the theme's visual treatments should be handled by the Block Editor and Global Styles. As a general rule, if multiple themes would benefit from the CSS you're considering adding, it might reasonably be provided by Gutenberg instead. Let's include clear code comments for any CSS we do include.
-*   Similarly, let's refrain from building any custom-built PHP or JavaScript-based workarounds for functionality that might reasonably be provided by the Block Editor. Simplifii will be a block theme, so let's keep its code simple.
-*   In accordance to those last two bullets, this theme has no required build process.
-*   If you've helped contribute to the theme in any way, you deserve credit! Folks will be updating [CONTRIBUTORS.md](CONTRIBUTORS.md) periodically with names of contributors, but feel free to open a PR or issue if we leave someone out.
+- Similar to Simplifii, a goal for the theme is to have as little CSS as possible. Much of the theme's visual treatments should be handled by the Block Editor and Global Styles. As a general rule, if multiple themes would benefit from the CSS you're considering adding, it might reasonably be provided by Gutenberg instead. Let's include clear code comments for any CSS we do include.
+- Similarly, let's refrain from building any custom-built PHP or JavaScript-based workarounds for functionality that might reasonably be provided by the Block Editor. Simplifii will be a block theme, so let's keep its code simple.
+- In accordance to those last two bullets, this theme has no required build process.
+- If you've helped contribute to the theme in any way, you deserve credit! Folks will be updating [CONTRIBUTORS.md](CONTRIBUTORS.md) periodically with names of contributors, but feel free to open a PR or issue if we leave someone out.
 
 ## Requirements
 
-*   Gutenberg plugin (latest)
-*   WordPress 5.9+
-*   PHP 5.6+
-*   License: [GPLv2](http://www.gnu.org/licenses/gpl-2.0.html) or later
+- Gutenberg plugin (latest)
+- WordPress 5.9+
+- PHP 5.6+
+- License: [GPLv2](http://www.gnu.org/licenses/gpl-2.0.html) or later
 
 Some theme features / PRs may require Gutenberg trunk and will be described or tagged accordingly.
 
 ## Resources
 
-*   [Simplifii Figma Mockups](https://www.figma.com/community/file/1139275543113752375)
-*   [Create Block Theme plugin](https://github.com/WordPress/create-block-theme)
-*   [Block Theme documentation](https://developer.wordpress.org/block-editor/how-to-guides/themes/block-theme-overview)
-*   [Global Styles & theme.json documentation](https://developer.wordpress.org/block-editor/how-to-guides/themes/theme-json/)
+- [Simplifii Figma Mockups](https://www.figma.com/file/OxgciXlJT84BH1083xFjCY/Simplifii-Theme?node-id=301%3A469)
+- [Create Block Theme plugin](https://github.com/WordPress/create-block-theme)
+- [Block Theme documentation](https://developer.wordpress.org/block-editor/how-to-guides/themes/block-theme-overview)
+- [Global Styles & theme.json documentation](https://developer.wordpress.org/block-editor/how-to-guides/themes/theme-json/)
