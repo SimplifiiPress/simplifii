@@ -11,14 +11,12 @@ License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: simplifii
 
-Simplifii is a versatile block-based WordPress theme with Full Site Editing allowing you to customise to your hearts content - with WooCommerce support.
-You must have the Gutenberg Plugin Activate to use this theme before ready for full site editing on released WordPress.
+Simplifii is a full site editing WordPress block-theme with WooCommerce support and can be customised to your every need.
 
 == Description ==
 
-The theme check plugin is an easy way to test your theme and make sure it's up to spec with the latest [theme review](https://make.wordpress.org/themes/handbook/review/) standards. With it, you can run all the same automated testing tools on your theme that WordPress.org uses for theme submissions.
-
-The tests are run through a simple admin menu and all results are displayed at once. This is very handy for theme developers, or anybody looking to make sure that their theme supports the latest WordPress theme standards and practices.
+Simplifii is a versatile block-based WordPress theme with Full Site Editing allowing you to customise to your hearts content - with WooCommerce support.
+You must have the Gutenberg Plugin Activate to use this theme before ready for full site editing on released WordPress.
 
 == Installation ==
 
@@ -56,10 +54,18 @@ Some theme features / PRs may require Gutenberg trunk and will be described or t
 - [Global Styles & theme.json documentation](https://developer.wordpress.org/block-editor/how-to-guides/themes/theme-json/)
 
 == Upgrade Notice ==
+Breaking changee will come in version 2.
 
 == Screenshots ==
 
 == Frequently Asked Questions ==
+
+= Why use Simplifii =
+Totally up to whether you want to use a theme that makes your life easier or not.
+
+= Can I contribute =
+Absolotely, follow along on github.
+→ [Simplifii on Githubs](https://github.com/leogopal/simplifii/),
 
 == Changelog ==
 = 1.1.1 =
