@@ -73,12 +73,12 @@ if (!function_exists('simplifii_styles')) {
 		wp_enqueue_style(
 			'simplifii-styles-front-end',
 			get_template_directory_uri() . '/assets/css/front-end.css',
-			$dependencies,
+			false, //$dependencies,
 			wp_get_theme('simplifii')->get('Version')
 		);
 	}
 
-	add_action('wp_enqueue_scripts', 'simplifii_styles');
+	// add_action('wp_enqueue_scripts', 'simplifii_styles');
 }
 
 if (!function_exists('simplifii_editor_styles')) {
@@ -90,8 +90,8 @@ if (!function_exists('simplifii_editor_styles')) {
 		add_editor_style(
 			array(
 				'./assets/css/editor.css',
-				'./assets/css/blocks.css',
-				'./assets/css/commons.css',
+				// './assets/css/blocks.css',
+				// './assets/css/commons.css',
 			)
 		);
 	}
