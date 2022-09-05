@@ -1,5 +1,25 @@
 # Simplifii WordPress FSE Theme
 
+# Simplifii WordPress FSE Theme
+
+<div aria-hidden="true">
+
+[![Latest Stable Version](https://poser.pugx.org/wp-coding-standards/wpcs/v/stable)](https://packagist.org/packages/wp-coding-standards/wpcs)
+[![Release Date of the Latest Version](https://img.shields.io/github/release-date/leogopal/simplifii.svg?maxAge=1800)](https://github.com/leogopal/simplifii/releases)
+:construction:
+[![Latest Unstable Version](https://img.shields.io/badge/unstable-dev--develop-e68718.svg?maxAge=2419200)](https://packagist.org/packages/wp-coding-standards/wpcs#dev-develop)
+[![Last Commit to Unstable](https://img.shields.io/github/last-commit/leogopal/simplifii/develop.svg)](https://github.com/leogopal/simplifii/commits/develop)
+
+[![Minimum PHP Version](https://img.shields.io/packagist/php-v/wp-coding-standards/wpcs.svg?maxAge=3600)](https://packagist.org/packages/wp-coding-standards/wpcs)
+[![Tested on PHP 5.4 to 7.4 snapshot](https://img.shields.io/badge/tested%20on-PHP%205.4%20|%205.5%20|%205.6%20|%207.0%20|%207.1%20|%207.2%20|%207.3%20|%207.4snapshot-green.svg?maxAge=2419200)](https://github.com/leogopal/simplifii/actions/workflows/unit-tests.yml)
+[![Basic QA checks](https://github.com/leogopal/simplifii/actions/workflows/ruleset-checks-sniffs.yml/badge.svg)](https://github.com/leogopal/simplifii/actions/workflows/ruleset-checks-sniffs.yml)
+[![Unit Tests](https://github.com/leogopal/simplifii/actions/workflows/unit-tests.yml/badge.svg)](https://github.com/leogopal/simplifii/actions/workflows/unit-tests.yml)
+
+[![License: MIT](https://poser.pugx.org/wp-coding-standards/wpcs/license)](https://github.com/leogopal/simplifii/blob/develop/LICENSE)
+[![Total Downloads](https://poser.pugx.org/wp-coding-standards/wpcs/downloads)](https://packagist.org/packages/wp-coding-standards/wpcs/stats)
+[![Number of Contributors](https://img.shields.io/github/contributors/leogopal/simplifii.svg?maxAge=3600)](https://github.com/leogopal/simplifii/graphs/contributors)
+
+</div>
 ![Auto Assign](https://github.com/leogopal/simplifii/actions/workflows/auto-assign.yml/badge.svg) ![Code Quality](https://github.com/leogopal/simplifii/actions/workflows/lint.yml/badge.svg) ![Codespaces Prebuilds](https://github.com/leogopal/simplifii/actions/workflows/codespaces/create_codespaces_prebuilds/badge.svg) ![DevSkim](https://github.com/leogopal/simplifii/actions/workflows/devskim.yml/badge.svg) ![Generate POT file](https://github.com/leogopal/simplifii/actions/workflows/pot.yml/badge.svg) ![pages-build-deployment](https://github.com/leogopal/simplifii/actions/workflows/pages/pages-build-deployment/badge.svg)
 
 This theme is designed as a block theme to support WordPress full site editing. You must have the Gutenberg Plugin Activate to use this theme before ready for full site editing on released WordPress.
