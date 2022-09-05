@@ -9,10 +9,10 @@
 [![Total Downloads](http://poser.pugx.org/leogopal/simplifii/downloads)](https://packagist.org/packages/leogopal/simplifii)
 [![Number of Contributors](https://img.shields.io/github/contributors/leogopal/simplifii.svg?maxAge=3600)](https://github.com/leogopal/simplifii/graphs/contributors)
 ![Auto Assign](https://github.com/leogopal/simplifii/actions/workflows/auto-assign.yml/badge.svg)
-![Code Quality PHP](https://github.com/leogopal/simplifii/actions/workflows/lint-css.yml/badge.svg)
-![Code Quality CSS](https://github.com/leogopal/simplifii/actions/workflows/lint-php.yml/badge.svg)
-![DevSkim](https://github.com/leogopal/simplifii/actions/workflows/devskim.yml/badge.svg)
-![Generate POT file](https://github.com/leogopal/simplifii/actions/workflows/pot.yml/badge.svg)
+[![Code Quality PHP](https://github.com/leogopal/simplifii/actions/workflows/lint-css.yml/badge.svg)](https://github.com/leogopal/simplifii/actions/workflows/lint-css.yml)
+[![Code Quality CSS](https://github.com/leogopal/simplifii/actions/workflows/lint-php.yml/badge.svg)](https://github.com/leogopal/simplifii/actions/workflows/lint-php.yml)
+[![DevSkim](https://github.com/leogopal/simplifii/actions/workflows/devskim.yml/badge.svg)](https://github.com/leogopal/simplifii/actions/workflows/devskim.yml)
+[![Generate POT file](https://github.com/leogopal/simplifii/actions/workflows/pot.yml/badge.svg)](https://github.com/leogopal/simplifii/actions/workflows/pot.yml)
 [![WordPress version checker](https://github.com/leogopal/simplifii/actions/workflows/wp-version-checker.yml/badge.svg)](https://github.com/leogopal/simplifii/actions/workflows/wp-version-checker.yml)
 
 </div>
