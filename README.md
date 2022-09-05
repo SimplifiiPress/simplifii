@@ -13,6 +13,7 @@
 ![Code Quality CSS](https://github.com/leogopal/simplifii/actions/workflows/lint-php.yml/badge.svg)
 ![DevSkim](https://github.com/leogopal/simplifii/actions/workflows/devskim.yml/badge.svg)
 ![Generate POT file](https://github.com/leogopal/simplifii/actions/workflows/pot.yml/badge.svg)
+[![WordPress version checker](https://github.com/leogopal/simplifii/actions/workflows/wp-version-checker.yml/badge.svg)](https://github.com/leogopal/simplifii/actions/workflows/wp-version-checker.yml)
 
 </div>
 
