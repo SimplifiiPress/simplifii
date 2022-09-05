@@ -10,8 +10,10 @@
  * @since Simplifii 1.0
  */
 if (!function_exists('simplifii_setup')) {
+
+
 	/**
-	 * Setup theme
+	 * It adds support for the theme to use HTML5 markup, post thumbnails, and automatic feed links
 	 */
 	function simplifii_setup()
 	{
@@ -47,8 +49,9 @@ if (!function_exists('simplifii_setup')) {
 add_action('after_setup_theme', 'simplifii_setup');
 
 if (!function_exists('simplifii_styles')) {
+
 	/**
-	 * Enqueue styles
+	 * It registers two stylesheets, then enqueues a third stylesheet that depends on the first two
 	 */
 	function simplifii_styles()
 	{
@@ -82,8 +85,9 @@ if (!function_exists('simplifii_styles')) {
 }
 
 if (!function_exists('simplifii_editor_styles')) {
+
 	/**
-	 * Enqueue editor styles
+	 * It registers two stylesheets, then enqueues a third stylesheet that depends on the first two
 	 */
 	function simplifii_editor_styles()
 	{
@@ -99,16 +103,16 @@ if (!function_exists('simplifii_editor_styles')) {
 	add_action('admin_init', 'simplifii_editor_styles');
 }
 
-/**
- * Block patterns.
- */
+
+/* It's checking if the function `register_block_pattern` exists. If it does, it will require the file
+`block-patterns.php` from the `inc/block-patterns` directory. */
 if (function_exists('register_block_pattern')) {
 	require get_template_directory() . '/inc/block-patterns/block-patterns.php';
 }
 
-/**
- * Block styles..
- */
+
+/* It's checking if the function `register_block_style` exists. If it does, it will require the file
+`block-styles.php` from the `inc/block-styles` directory. */
 if (function_exists('register_block_style')) {
 	require get_template_directory() . '/inc/block-styles/block-styles.php';
 }

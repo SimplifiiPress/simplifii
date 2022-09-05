@@ -2,5 +2,6 @@
     "githubPullRequests.ignoredPullRequestBranches": [
         "main"
     ],
-    "docwriter.style": "Auto-detect"
+    "docwriter.style": "DocBlock",
+    "docwriter.progress.trackFunctions": true
 }

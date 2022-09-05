@@ -1,69 +1,50 @@
 <!-- wp:template-part {"slug":"header","tagName":"header"} /-->
 
-<!-- wp:columns {"verticalAlignment":"center","align":"wide","style":{"spacing":{"blockGap":"0px","padding":{"top":"var:preset|spacing|30","right":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|30"}}}} -->
-<div class="wp-block-columns alignwide are-vertically-aligned-center" style="padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)"><!-- wp:column {"verticalAlignment":"center","width":"70%","layout":{"type":"constrained"}} -->
-<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:70%"><!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
-<div class="wp-block-group"><!-- wp:paragraph {"align":"right","style":{"typography":{"lineHeight":"1.2","fontStyle":"normal","fontWeight":"700","fontSize":"90px"}},"textColor":"accent-color"} -->
-<p class="has-text-align-right has-accent-color-color has-text-color" style="font-size:90px;font-style:normal;font-weight:700;line-height:1.2">Simplifii theme</p>
-<!-- /wp:paragraph -->
+<!-- wp:group {"tagName":"main","layout":{"type":"constrained"},"style":{"spacing":{"margin":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}}} -->
+<main
+	class="wp-block-group"
+	style="
+		margin-top: var(--wp--preset--spacing--70);
+		margin-bottom: var(--wp--preset--spacing--70);
+	"
+>
+	<!-- wp:heading {"align":"wide","style":{"spacing":{"margin":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|50"}}}} -->
+	<h2
+		class="alignwide"
+		style="
+			margin-top: var(--wp--preset--spacing--60);
+			margin-bottom: var(--wp--preset--spacing--50);
+		"
+	>
+		Blog
+	</h2>
+	<!-- /wp:heading -->
 
-<!-- wp:paragraph {"align":"right","fontSize":"large"} -->
-<p class="has-text-align-right has-large-font-size">Simplifii is a <mark style="background-color:#2C5273" class="has-inline-color has-background-color">full site editing WordPress block-theme with </mark><mark style="background-color:#ff18fb" class="has-inline-color has-background-color">WooCommerce support</mark> and can be <mark style="background-color:#163A59" class="has-inline-color has-base-color">customised</mark> to your every need.</p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:group --></div>
-<!-- /wp:column -->
+	<!-- wp:query {"queryId":0,"query":{"perPage":3,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true},"displayLayout":{"type":"flex","columns":2},"align":"wide","layout":{"type":"default"}} -->
+	<div class="wp-block-query alignwide">
+		<!-- wp:post-template {"align":"wide"} -->
+		<!-- wp:post-featured-image {"isLink":true,"align":"wide"} /-->
 
-<!-- wp:column {"verticalAlignment":"center","width":"30%","style":{"spacing":{"padding":{"right":"0%","left":"0%","top":"35px"}},"typography":{"fontSize":"50px"}},"layout":{"type":"constrained","contentSize":"800px","wideSize":"1200px"},"fontFamily":"dm-sans"} -->
-<div class="wp-block-column is-vertically-aligned-center has-dm-sans-font-family" style="padding-top:35px;padding-right:0%;padding-left:0%;font-size:50px;flex-basis:30%"><!-- wp:paragraph {"align":"left","style":{"spacing":{"padding":{"top":"10px","right":"10px","bottom":"10px","left":"10px"}}},"fontSize":"medium","fontFamily":"dm-sans"} -->
-<p class="has-text-align-left has-dm-sans-font-family has-medium-font-size" style="padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px">Simplifii is a versatile block-based WordPress theme with Full Site Editing allowing you to customise it to your hearts content - with WooCommerce support.</p>
-<!-- /wp:paragraph -->
+		<!-- wp:post-title {"level":3,"isLink":true,"style":{"typography":{"fontStyle":"normal","fontWeight":"600","textTransform":"capitalize"},"elements":{"link":{"color":{"text":"var:preset|color|sub-accent-color"}}}},"fontSize":"medium","fontFamily":"primary"} /-->
 
-<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center","verticalAlignment":"bottom"},"style":{"spacing":{"blockGap":"10px"}}} -->
-<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"accent-color","textColor":"white","width":100,"style":{"border":{"radius":"0px"},"typography":{"fontSize":"18px"},"spacing":{"padding":{"top":"15px","right":"15px","bottom":"15px","left":"15px"}}},"className":"is-style-fill","fontFamily":"dm-sans"} -->
-<div class="wp-block-button has-custom-width wp-block-button__width-100 has-custom-font-size is-style-fill has-dm-sans-font-family" style="font-size:18px"><a class="wp-block-button__link has-white-color has-accent-color-background-color has-text-color has-background wp-element-button" href="https://wordpress.org/themes/simplifii/" style="border-radius:0px;padding-top:15px;padding-right:15px;padding-bottom:15px;padding-left:15px" target="_blank" rel="noreferrer noopener"><strong>Download Simplifii</strong></a></div>
-<!-- /wp:button --></div>
-<!-- /wp:buttons --></div>
-<!-- /wp:column --></div>
-<!-- /wp:columns -->
+		<!-- wp:post-excerpt {"textAlign":"left","moreText":"\u003cstrong\u003eContinue reading -\u003e\u003c/strong\u003e ","style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}}},"fontSize":"small"} /-->
+		<!-- /wp:post-template -->
+	</div>
+	<!-- /wp:query -->
 
-<!-- wp:group {"tagName":"main","className":"l-site-content"} -->
-<main class="wp-block-group l-site-content"><!-- wp:group {"layout":{"inherit":true,"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:query {"queryId":0,"query":{"perPage":10,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true,"taxQuery":null}} -->
-<div class="wp-block-query"><!-- wp:post-template -->
-<!-- wp:post-featured-image {"isLink":true,"align":"center"} /-->
+	<!-- wp:separator {"align":"wide","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|40"}}}} -->
+	<hr
+		class="wp-block-separator alignwide has-alpha-channel-opacity"
+		style="margin-bottom: var(--wp--preset--spacing--40)"
+	/>
+	<!-- /wp:separator -->
 
-<!-- wp:post-title {"isLink":true,"fontSize":"huge"} /-->
+	<!-- wp:query-pagination {"paginationArrow":"arrow","align":"wide","layout":{"type":"flex","justifyContent":"space-between"}} -->
+	<!-- wp:query-pagination-previous {"label":"Newer Posts"} /-->
 
-<!-- wp:post-date {"textAlign":"left","isLink":true,"fontSize":"tiny"} /-->
-
-<!-- wp:group {"layout":{"inherit":true,"type":"constrained"},"align":"full","style":{"spacing":{"blockGap":"0px"}}} -->
-<div class="wp-block-group alignfull"><!-- wp:spacer -->
-<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer -->
-
-<!-- wp:spacer -->
-<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer --></div>
+	<!-- wp:query-pagination-next {"label":"Older Posts"} /-->
+	<!-- /wp:query-pagination -->
+</main>
 <!-- /wp:group -->
 
-<!-- wp:post-excerpt {"textColor":"recommended-color-01"} /-->
-
-<!-- wp:separator -->
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-<!-- /wp:separator -->
-<!-- /wp:post-template -->
-
-<!-- wp:query-pagination {"paginationArrow":"chevron","align":"center","textColor":"recommended-color-01","layout":{"type":"flex","justifyContent":"space-between"}} -->
-<!-- wp:query-pagination-previous {"fontSize":"normal"} /-->
-
-<!-- wp:query-pagination-next {"fontSize":"normal"} /-->
-<!-- /wp:query-pagination -->
-
-<!-- wp:spacer {"height":"34px"} -->
-<div style="height:34px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer --></div>
-<!-- /wp:query --></div>
-<!-- /wp:group --></main>
-<!-- /wp:group -->
-
-<!-- wp:template-part {"slug":"black-footer"} /-->
+<!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->
