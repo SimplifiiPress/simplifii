@@ -10,7 +10,7 @@ Tags: blog, grid-layout, one-column, two-columns, three-columns, four-columns, c
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: simplifii
-GitHub Theme URI: leogopal/simplifii
+GitHub Theme URI: leogopal/Simplifii
 
 Simplifii is a full site editing WordPress block-theme with WooCommerce support and can be customised to your every need.
 
