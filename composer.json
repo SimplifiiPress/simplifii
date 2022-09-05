@@ -19,11 +19,37 @@
 	},
 	"require-dev": {
 		"dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
-		"wptrt/wpthemereview": "^0.2.1"
+		"wptrt/wpthemereview": "^0.2.1",
+		"phpstan/phpstan": "0.12.90",
+		"szepeviktor/phpstan-wordpress": "^0.7.6",
+		"php-stubs/woocommerce-stubs": "^5.4"
 	},
 	"config": {
+		"optimize-autoloader": true,
+		"platform-check": false,
+		"platform": {
+			"php": "7.4"
+		},
 		"allow-plugins": {
 			"dealerdirect/phpcodesniffer-composer-installer": true
 		}
-	}
+	},
+	"scripts": {
+		"format": "phpcbf --standard=phpcs.xml --report-summary --report-source -s  --runtime-set testVersion 7.0- ",
+		"format-fix-exit": "\"vendor/bin/phpcbf-fix-exit-0\" --standard=phpcs.xml --report-summary --report-source -s  --runtime-set testVersion 7.0- ",
+		"phpcs": "phpcs --standard=phpcs.xml -s  --runtime-set testVersion 7.0-",
+		"lint": "composer run-script phpcs",
+		"lint:php": "./vendor/bin/phpcs",
+		"lint:php:fix": "./bin/phpcbf.sh",
+		"phpcs-i": "phpcs -i",
+		"phpstan": "phpstan analyse",
+		"post-install-cmd": [
+			"[ ! -z \"$GITHUB_ACTIONS\" ] && yarn run bump-vendor || true"
+		],
+		"post-update-cmd": [
+			"[ ! -z \"$GITHUB_ACTIONS\" ] && yarn run bump-vendor || true"
+		]
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true
 }
