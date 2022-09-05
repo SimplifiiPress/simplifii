@@ -2,6 +2,7 @@
 	"name": "leogopal/simplifii",
 	"type": "package",
 	"description": "Simplifii is a simple multipurpose and flexible Full Site Editing theme for WordPress with WooCommerce support.",
+	"version": "1.2,0",
 	"keywords": [
 		"WordPress",
 		"Themes"
