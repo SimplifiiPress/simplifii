@@ -13,7 +13,7 @@ jobs:
         uses: iamdharmesh/action-wordpress-pot-generator@main
         with:
           destination_path: "./languages"
-          slug: "marketers-delight"
-          text_domain: "md"
+          slug: "simplifii"
+          text_domain: "simplifii"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
