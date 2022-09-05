@@ -1,7 +1,5 @@
 {
-    "githubPullRequests.ignoredPullRequestBranches": [
-        "main"
-    ],
-    "docwriter.style": "DocBlock",
-    "docwriter.progress.trackFunctions": true
+	"githubPullRequests.ignoredPullRequestBranches": ["main"],
+	"docwriter.style": "DocBlock",
+	"docwriter.progress.trackFunctions": true
 }

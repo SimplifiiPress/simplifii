@@ -1,40 +1,40 @@
-name: "Code Quality CSS"
+name: 'Code Quality CSS'
 
 on:
-  push:
-    branches:
-      - main
-    pull_request:
-      types:
-        - opened
-        - synchronize
-        - ready_for_review
+    push:
+        branches:
+            - main
+        pull_request:
+            types:
+                - opened
+                - synchronize
+                - ready_for_review
 
 # Cancel previous workflow run groups that have not completed.
 concurrency:
-  # Group workflow runs by workflow name, along with the head branch ref of the pull request
-  # or otherwise the branch or tag ref.
-  group: ${{ github.workflow }}-${{ github.event_name == 'pull_request' && github.head_ref || github.ref }}
-  cancel-in-progress: true
+    # Group workflow runs by workflow name, along with the head branch ref of the pull request
+    # or otherwise the branch or tag ref.
+    group: ${{ github.workflow }}-${{ github.event_name == 'pull_request' && github.head_ref || github.ref }}
+    cancel-in-progress: true
 
 jobs:
-  lint-css:
-    name: "Lint: CSS"
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v3
+    lint-css:
+        name: 'Lint: CSS'
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v3
 
-      - name: Setup Node
-        uses: actions/setup-node@v3.4.1
-        with:
-          node-version-file: ".nvmrc"
-          cache: npm
+            - name: Setup Node
+              uses: actions/setup-node@v3.4.1
+              with:
+                  node-version-file: '.nvmrc'
+                  cache: npm
 
-      - name: Install Node dependencies
-        run: npm ci
-        env:
-          CI: true
+            - name: Install Node dependencies
+              run: npm ci
+              env:
+                  CI: true
 
-      - name: Detect coding standard violations (stylelint)
-        run: npm run lint:css
+            - name: Detect coding standard violations (stylelint)
+              run: npm run lint:css

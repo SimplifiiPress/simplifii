@@ -17,18 +17,43 @@
 	"bugs": {
 		"url": "https://github.com/leogopal/simplifii/issues"
 	},
+	"dependencies": {
+		"@wordpress/format-library": "^3.14.0",
+		"@wordpress/i18n": "^4.16.0",
+		"@wordpress/postcss-plugins-preset": "^4.0.0",
+		"@wordpress/postcss-themes": "^5.0.0",
+		"@wordpress/preferences": "^2.8.0",
+		"@wordpress/preferences-persistence": "^1.8.0",
+		"@wordpress/reusable-blocks": "^3.14.0",
+		"@wordpress/style-engine": "^0.15.0"
+	},
 	"devDependencies": {
+		"@wordpress/babel-preset-default": "^7.0.0",
+		"@wordpress/docgen": "^1.25.0",
+		"@wordpress/eslint-plugin": "^13.0.0",
+		"@wordpress/prettier-config": "^2.0.0",
+		"@wordpress/scripts": "^24.0.0",
 		"@wordpress/stylelint-config": "^21.0.0",
+		"prettier": "^2.7.1",
 		"stylelint": "^14.10.0"
 	},
 	"scripts": {
 		"lint:css": "stylelint **/*.css -i .gitignore",
 		"lint:css:fix": "stylelint **/*.css -i .gitignore --fix",
 		"lint:php": "./vendor/bin/phpcs",
-		"lint:php:fix": "./bin/phpcbf.sh"
+		"lint:php:fix": "./bin/phpcbf.sh",
+		"build": "wp-scripts build",
+		"check-engines": "wp-scripts check-engines",
+		"check-licenses": "wp-scripts check-licenses",
+		"format": "wp-scripts format",
+		"lint:js": "wp-scripts lint-js",
+		"lint:md:docs": "wp-scripts lint-md-docs",
+		"lint:pkg-json": "wp-scripts lint-pkg-json",
+		"packages-update": "wp-scripts packages-update",
+		"plugin-zip": "wp-scripts plugin-zip",
+		"start": "wp-scripts start",
+		"test:e2e": "wp-scripts test-e2e",
+		"test:unit": "wp-scripts test-unit-js"
 	},
-	"dependencies": {
-		"@wordpress/postcss-plugins-preset": "^4.0.0",
-		"@wordpress/postcss-themes": "^5.0.0"
-	}
+	"prettier": "@wordpress/prettier-config"
 }
