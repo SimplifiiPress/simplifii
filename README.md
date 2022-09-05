@@ -44,7 +44,7 @@
 [![commits since](https://img.shields.io/github/commits-since/leogopal/simplifii/v1.1.0.svg?style=for-the-badge)]()
 [![closed issues](https://img.shields.io/github/issues-closed/leogopal/simplifii.svg?style=for-the-badge)]()
 [![PR closed](https://img.shields.io/github/issues-pr-closed/leogopal/simplifii.svg?style=for-the-badge)]()
-[![Codeable](https://shields.io/badge/codeable-grey?logo=data:image/webp;base64,UklGRpgAAABXRUJQVlA4TIsAAAAvGUAGEC9AkG3T+dOc8BrzTyBps61/gZc9ZAEmQxlAFPnz9BbA7rCUu1g4qm3baS5NwGEtBNQ5EiCJgO7fy2ujCIjoP9q2baMk5dZD9H/ThY7Q+Q7tvbcxWE9u7sjLmph7FwYTbi68TAwXfuDEiJ1j0dyr4iZlwkcFN8kpdLKRZCSaCWbcgqVSesgTAA==&style=for-the-badge?style=for-the-badge))]()
+[![Codeable](https://shields.io/badge/codeable-grey?logo=data:image/webp;base64,UklGRpgAAABXRUJQVlA4TIsAAAAvGUAGEC9AkG3T+dOc8BrzTyBps61/gZc9ZAEmQxlAFPnz9BbA7rCUu1g4qm3baS5NwGEtBNQ5EiCJgO7fy2ujCIjoP9q2baMk5dZD9H/ThY7Q+Q7tvbcxWE9u7sjLmph7FwYTbi68TAwXfuDEiJ1j0dyr4iZlwkcFN8kpdLKRZCSaCWbcgqVSesgTAA==&style=for-the-badge))]()
 [![license](https://img.shields.io/github/license/leogopal/simplifii.svg?style=for-the-badge)]()
 	
 </div>
