@@ -1,5 +1,7 @@
 {
     "recommendations": [
-        "felixfbecker.php-intellisense"
+        "felixfbecker.php-intellisense",
+        "johnbillion.vscode-wordpress-hooks",
+        "esbenp.prettier-vscode"
     ]
 }
