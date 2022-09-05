@@ -8,7 +8,7 @@
 [![Release Date of the Latest Version](https://img.shields.io/github/release-date/leogopal/simplifii.svg?maxAge=1800)](https://github.com/leogopal/simplifii/releases)
 :construction:
 [![Latest Unstable Version](https://img.shields.io/badge/unstable-dev--develop-e68718.svg?maxAge=2419200)](https://packagist.org/packages/leogopal/simplifii#dev-develop)
-[![Last Commit to Unstable](https://img.shields.io/github/last-commit/leogopal/simplifii/develop.svg)](https://github.com/leogopal/simplifii/commits/develop)
+[![Last Commit to Unstable](https://img.shields.io/github/last-commit/leogopal/simplifii/main.svg)](https://github.com/leogopal/simplifii/commits/main)
 
 [![Minimum PHP Version](https://img.shields.io/packagist/php-v/leogopal/simplifii.svg?maxAge=3600)](https://packagist.org/packages/leogopal/simplifii)
 [![Tested on PHP 5.4 to 7.4 snapshot](https://img.shields.io/badge/tested%20on-PHP%205.4%20|%205.5%20|%205.6%20|%207.0%20|%207.1%20|%207.2%20|%207.3%20|%207.4snapshot-green.svg?maxAge=2419200)](https://github.com/leogopal/simplifii/actions/workflows/unit-tests.yml)
