@@ -18,8 +18,13 @@
 		"url": "https://github.com/leogopal/simplifii/issues"
 	},
 	"dependencies": {
+		"@wordpress/escape-html": "^2.16.0",
 		"@wordpress/format-library": "^3.14.0",
+		"@wordpress/html-entities": "^3.16.0",
 		"@wordpress/i18n": "^4.16.0",
+		"@wordpress/icons": "^9.7.0",
+		"@wordpress/npm-package-json-lint-config": "^4.2.0",
+		"@wordpress/nux": "^5.14.0",
 		"@wordpress/postcss-plugins-preset": "^4.0.0",
 		"@wordpress/postcss-themes": "^5.0.0",
 		"@wordpress/preferences": "^2.8.0",
@@ -34,6 +39,7 @@
 		"@wordpress/prettier-config": "^2.0.0",
 		"@wordpress/scripts": "^24.0.0",
 		"@wordpress/stylelint-config": "^21.0.0",
+		"glob": "^8.0.3",
 		"prettier": "^2.7.1",
 		"stylelint": "^14.10.0"
 	},
@@ -55,5 +61,8 @@
 		"test:e2e": "wp-scripts test-e2e",
 		"test:unit": "wp-scripts test-unit-js"
 	},
-	"prettier": "@wordpress/prettier-config"
+	"prettier": "@wordpress/prettier-config",
+	"npmpackagejsonlint": {
+		"extends": "@wordpress/npm-package-json-lint-config"
+	}
 }
