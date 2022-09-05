@@ -9,6 +9,7 @@ Stable tag: 1.2.0e-column, two-columns, three-columns, four-columns, custom-back
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: simplifii
+GitHub Theme URI: leogopal/simplifii
 
 Simplifii is a full site editing WordPress block-theme with WooCommerce support and can be customised to your every need.
 
