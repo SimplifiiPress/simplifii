@@ -15,8 +15,8 @@
 [![Basic QA checks](https://github.com/leogopal/simplifii/actions/workflows/ruleset-checks-sniffs.yml/badge.svg)](https://github.com/leogopal/simplifii/actions/workflows/ruleset-checks-sniffs.yml)
 [![Unit Tests](https://github.com/leogopal/simplifii/actions/workflows/unit-tests.yml/badge.svg)](https://github.com/leogopal/simplifii/actions/workflows/unit-tests.yml)
 
-[![License: MIT](https://poser.pugx.org/wp-coding-standards/wpcs/license)](https://github.com/leogopal/simplifii/blob/develop/LICENSE)
-[![Total Downloads](https://poser.pugx.org/wp-coding-standards/wpcs/downloads)](https://packagist.org/packages/wp-coding-standards/wpcs/stats)
+[![License: GPL](https://poser.pugx.orgleogopal/simplifii/license)](https://github.com/leogopal/simplifii/blob/develop/LICENSE)
+[![Total Downloads](https://poser.pugx.orgleogopal/simplifii/downloads)](https://packagist.org/packagesleogopal/simplifii/stats)
 [![Number of Contributors](https://img.shields.io/github/contributors/leogopal/simplifii.svg?maxAge=3600)](https://github.com/leogopal/simplifii/graphs/contributors)
 ![Auto Assign](https://github.com/leogopal/simplifii/actions/workflows/auto-assign.yml/badge.svg)
 ![Code Quality](https://github.com/leogopal/simplifii/actions/workflows/lint.yml/badge.svg)
