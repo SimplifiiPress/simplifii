@@ -12,10 +12,8 @@
 
 [![Minimum PHP Version](https://img.shields.io/packagist/php-v/leogopal/simplifii.svg?maxAge=3600)](https://packagist.org/packages/leogopal/simplifii)
 [![Tested on PHP 5.4 to 7.4 snapshot](https://img.shields.io/badge/tested%20on-PHP%205.4%20|%205.5%20|%205.6%20|%207.0%20|%207.1%20|%207.2%20|%207.3%20|%207.4snapshot-green.svg?maxAge=2419200)](https://github.com/leogopal/simplifii/actions/workflows/unit-tests.yml)
-[![Basic QA checks](https://github.com/leogopal/simplifii/actions/workflows/ruleset-checks-sniffs.yml/badge.svg)](https://github.com/leogopal/simplifii/actions/workflows/ruleset-checks-sniffs.yml)
-[![Unit Tests](https://github.com/leogopal/simplifii/actions/workflows/unit-tests.yml/badge.svg)](https://github.com/leogopal/simplifii/actions/workflows/unit-tests.yml)
 
-[![License: GPL](https://poser.pugx.orgleogopal/simplifii/license)](https://github.com/leogopal/simplifii/blob/develop/LICENSE)
+[![License: GPL](https://poser.pugx.orgleogopal/simplifii/license)](https://github.com/leogopal/simplifii/blob/main/LICENSE)
 [![Total Downloads](https://poser.pugx.orgleogopal/simplifii/downloads)](https://packagist.org/packagesleogopal/simplifii/stats)
 [![Number of Contributors](https://img.shields.io/github/contributors/leogopal/simplifii.svg?maxAge=3600)](https://github.com/leogopal/simplifii/graphs/contributors)
 ![Auto Assign](https://github.com/leogopal/simplifii/actions/workflows/auto-assign.yml/badge.svg)
