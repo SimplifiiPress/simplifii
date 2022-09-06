@@ -22,7 +22,7 @@ if (!function_exists('sim_fs')) {
 				'has_addons'          => false,
 				'has_paid_plans'      => false,
 				'menu'	=> array(
-					'slug'	=> 'themes.php',
+					'slug'	=> 'simplifii',
 					'first-path'	=> 'themes.php?page=simplifii',
 					'support'	=> false,
 					'parent'	=> array(
