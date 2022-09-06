@@ -32,6 +32,9 @@ if ( ! function_exists( 'simplifii_setup' ) ) {
 
 		// Enqueue editor styles.
 		add_editor_style( 'style.css' );
+
+		// add optin wp block styles
+		add_theme_support( 'wp-block-styles' );
 	}
 	add_action( 'after_setup_theme', 'simplifii_setup' );
 }
