@@ -2,15 +2,15 @@
 Contributors: leogopal
 Author URI: http://leogopal.com/
 Plugin URL: http://simplifii.leogopal.dev
-Requires at least: 6.0
+Requires at least: 5.9
 Requires PHP: 7.4
-Tested up to: 6.0.2
-Stable tag: 1.3.1
+Tested up to: 6.0
+Stable tag: 1.5.0
 Tags: blog, grid-layout, one-column, two-columns, three-columns, four-columns, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, sticky-post, threaded-comments, translation-ready, block-styles, wide-blocks, full-site-editing, e-commerce, block-patterns
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: simplifii
-GitHub Theme URI: leogopal/Simplifii
+GitHub Theme URI: leogopal/simplifii
 
 Simplifii is a full site editing WordPress block-theme with WooCommerce support and can be customised to your every need.
 
@@ -59,6 +59,7 @@ Breaking changee will come in version 2.
 
 == Screenshots ==
 
+
 == Frequently Asked Questions ==
 
 = Why use Simplifii =
@@ -69,6 +70,12 @@ Absolotely, follow along on github.
 → [Simplifii on Githubs](https://github.com/leogopal/simplifii/),
 
 == Changelog ==
+= 1.5.0 =
+* Add new theme styles.
+
+= 1.3.0 =
+* Removed unneeded parts and patterns and cleaned up theme styling.
+
 = 1.2.0 =
 * A more robust and cleaner default style.
 
@@ -85,6 +92,11 @@ Absolotely, follow along on github.
 * General styling improvements
 * Fluid typography support
 * Noto Serif font locally added.
+
+== Upgrade Notice ==
+
+= 1.5.0 =
+* New theme styles and cleaner layouts default.
 
 == Copyright ==
 
