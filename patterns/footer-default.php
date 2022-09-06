@@ -18,8 +18,8 @@
 			<?php
 			printf(
 				/* Translators: WordPress link. */
-				esc_html__('Proudly powered by %s', 'simplifii'),
-				'<a href="' . esc_url(__('https://wordpress.org', 'simplifii')) . '" rel="nofollow">WordPress</a>'
+				esc_html__( 'Proudly powered by %s', 'simplifii' ),
+				'<a href="' . esc_url( __( 'https://wordpress.org', 'simplifii' ) ) . '" rel="nofollow">WordPress</a>'
 			)
 			?>
 		</p>

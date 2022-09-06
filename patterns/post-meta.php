@@ -21,17 +21,17 @@
 			<!-- wp:group {"style":{"spacing":{"blockGap":"1ch"}},"layout":{"type":"flex"}} -->
 			<div class="wp-block-group">
 				<!-- wp:paragraph -->
-				<p><?php echo esc_html_x('Posted', 'Verb to explain the publication status of a post', 'simplifii'); ?></p><!-- /wp:paragraph -->
-				<!-- wp:post-date {"format":"<?php echo esc_html_x('F j, Y', 'Date format for publication date of post', 'simplifii'); ?>"} /-->
+				<p><?php echo esc_html_x( 'Posted', 'Verb to explain the publication status of a post', 'simplifii' ); ?></p><!-- /wp:paragraph -->
+				<!-- wp:post-date {"format":"<?php echo esc_html_x( 'F j, Y', 'Date format for publication date of post', 'simplifii' ); ?>"} /-->
 				<!-- wp:paragraph -->
-				<p><?php echo esc_html_x('in', 'Preposition to show the relationship between the post and its categories', 'simplifii'); ?></p><!-- /wp:paragraph -->
+				<p><?php echo esc_html_x( 'in', 'Preposition to show the relationship between the post and its categories', 'simplifii' ); ?></p><!-- /wp:paragraph -->
 				<!-- wp:post-terms {"term":"category"} /-->
 			</div>
 			<!-- /wp:group -->
 			<!-- wp:group {"style":{"spacing":{"blockGap":"1ch"}},"layout":{"type":"flex"}} -->
 			<div class="wp-block-group">
 				<!-- wp:paragraph -->
-				<p><?php echo esc_html_x('by', 'Preposition to show the relationship between the post and its author', 'simplifii'); ?></p><!-- /wp:paragraph -->
+				<p><?php echo esc_html_x( 'by', 'Preposition to show the relationship between the post and its author', 'simplifii' ); ?></p><!-- /wp:paragraph -->
 				<!-- wp:post-author-name {"isLink":true} /-->
 			</div>
 			<!-- /wp:group -->
@@ -42,7 +42,7 @@
 			<!-- wp:group {"style":{"spacing":{"blockGap":"1ch"}},"layout":{"type":"flex","orientation":"vertical"}} -->
 			<div class="wp-block-group">
 				<!-- wp:paragraph -->
-				<p><?php echo esc_html_x('Tags:', 'Label for a list of post tags', 'simplifii'); ?></p><!-- /wp:paragraph -->
+				<p><?php echo esc_html_x( 'Tags:', 'Label for a list of post tags', 'simplifii' ); ?></p><!-- /wp:paragraph -->
 				<!-- wp:post-terms {"term":"post_tag"} /-->
 			</div>
 			<!-- /wp:group -->

@@ -13,7 +13,7 @@
 	<!-- wp:column -->
 	<div class="wp-block-column">
 		<!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.2"}},"fontSize":"x-large"} -->
-		<p class="has-x-large-font-size" style="line-height:1.2"><?php echo esc_html_x('Got any book recommendations?', 'sample content for call to action', 'simplifii'); ?>
+		<p class="has-x-large-font-size" style="line-height:1.2"><?php echo esc_html_x( 'Got any book recommendations?', 'sample content for call to action', 'simplifii' ); ?>
 		</p>
 		<!-- /wp:paragraph -->
 
@@ -21,7 +21,7 @@
 		<div class="wp-block-buttons">
 			<!-- wp:button {"fontSize":"small"} -->
 			<div class="wp-block-button has-custom-font-size has-small-font-size"><a class="wp-block-button__link wp-element-button">
-					<?php echo esc_html_x('Get In Touch', 'sample content for call to action button', 'simplifii'); ?>
+					<?php echo esc_html_x( 'Get In Touch', 'sample content for call to action button', 'simplifii' ); ?>
 				</a></div>
 			<!-- /wp:button -->
 		</div>
