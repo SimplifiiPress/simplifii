@@ -1,3 +1,0 @@
-# API
-
-Nothing to document.
