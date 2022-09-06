@@ -55,30 +55,6 @@ This theme is designed as a block theme to support WordPress full site editing. 
 
 ![screenshot](https://user-images.githubusercontent.com/4948323/187812605-6ba0c71d-a08c-4123-91eb-42ff7373ba89.png)
 
-## About
-
-Simplifii is a simple multipurpose and flexible Full Site Editing theme for WordPress with WooCommerce support.
-
-<div><span class="dashicons dashicons-heart favorite favorited"></span></div>
-
-<div class="theme-head">
-
-<div class="theme-actions clear">[Preview](https://wp-themes.com/simplifii/) [Download](https://downloads.wordpress.org/theme/simplifii.1.5.0.zip)</div>
-
-<div class="theme-meta-info">
-
-Version: **1.5.0**
-
-Last updated: **September 6, 2022**
-
-Active Installations: **60+**
-
-WordPress Version: **5.9 or higher**
-
-PHP Version: **7.4 or higher**
-
-[Theme Homepage](https://simplifii.leogopal.dev)
-
 </div>
 
 </div>
