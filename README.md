@@ -59,6 +59,48 @@ This theme is designed as a block theme to support WordPress full site editing. 
 
 Simplifii is a simple multipurpose and flexible Full Site Editing theme for WordPress with WooCommerce support.
 
+<div><span class="dashicons dashicons-heart favorite favorited"></span></div>
+
+<div class="theme-head">
+
+<div class="theme-actions clear">[Preview](https://wp-themes.com/simplifii/) [Download](https://downloads.wordpress.org/theme/simplifii.1.5.0.zip)</div>
+
+<div class="theme-meta-info">
+
+Version: **1.5.0**
+
+Last updated: **September 6, 2022**
+
+Active Installations: **60+**
+
+WordPress Version: **5.9 or higher**
+
+PHP Version: **7.4 or higher**
+
+[Theme Homepage](https://simplifii.leogopal.dev)
+
+</div>
+
+</div>
+
+<div class="theme-info">
+
+<div class="screenshot"><picture><source media="(min-width: 782px)" srcset="https://i0.wp.com/themes.svn.wordpress.org/simplifii/1.5.0/screenshot.png?w=572&amp;strip=all, https://i0.wp.com/themes.svn.wordpress.org/simplifii/1.5.0/screenshot.png?w=1144&amp;strip=all 2x"><source media="(min-width: 481px) and (max-width: 782px)" srcset="https://i0.wp.com/themes.svn.wordpress.org/simplifii/1.5.0/screenshot.png?w=700&amp;strip=all, https://i0.wp.com/themes.svn.wordpress.org/simplifii/1.5.0/screenshot.png?w=1400&amp;strip=all 2x"><source media="(min-width: 401px) and (max-width: 480px)" srcset="https://i0.wp.com/themes.svn.wordpress.org/simplifii/1.5.0/screenshot.png?w=420&amp;strip=all, https://i0.wp.com/themes.svn.wordpress.org/simplifii/1.5.0/screenshot.png?w=840&amp;strip=all 2x"><source media="(max-width: 400px)" srcset="https://i0.wp.com/themes.svn.wordpress.org/simplifii/1.5.0/screenshot.png?w=344&amp;strip=all, https://i0.wp.com/themes.svn.wordpress.org/simplifii/1.5.0/screenshot.png?w=688&amp;strip=all 2x">![](https://i0.wp.com/themes.svn.wordpress.org/simplifii/1.5.0/screenshot.png?w=572&strip=all)</picture></div>
+
+<div class="theme-description entry-summary">
+
+Simplifii is a versatile block-based WordPress theme with Full Site Editing allowing you to customise to your hearts content - with WooCommerce support. You must have the Gutenberg Plugin Activate to use this theme before ready for full site editing on released WordPress.
+
+</div>
+
+[Preview](https://wp-themes.com/simplifii/) [Download](https://downloads.wordpress.org/theme/simplifii.1.5.0.zip)
+
+### Tags:
+
+[Block Editor Patterns](https://wordpress.org/themes/tags/block-patterns/), [Block Editor Styles](https://wordpress.org/themes/tags/block-styles/), [Blog](https://wordpress.org/themes/tags/blog/), [Custom Background](https://wordpress.org/themes/tags/custom-background/), [Custom Colors](https://wordpress.org/themes/tags/custom-colors/), [Custom Logo](https://wordpress.org/themes/tags/custom-logo/), [Custom Menu](https://wordpress.org/themes/tags/custom-menu/), [E-Commerce](https://wordpress.org/themes/tags/e-commerce/), [Editor Style](https://wordpress.org/themes/tags/editor-style/), [Featured Images](https://wordpress.org/themes/tags/featured-images/), [Four Columns](https://wordpress.org/themes/tags/four-columns/), [Full Site Editing](https://wordpress.org/themes/tags/full-site-editing/), [Grid Layout](https://wordpress.org/themes/tags/grid-layout/), [One Column](https://wordpress.org/themes/tags/one-column/), [Sticky Post](https://wordpress.org/themes/tags/sticky-post/), [Threaded Comments](https://wordpress.org/themes/tags/threaded-comments/), [Three Columns](https://wordpress.org/themes/tags/three-columns/), [Translation Ready](https://wordpress.org/themes/tags/translation-ready/), [Two Columns](https://wordpress.org/themes/tags/two-columns/), [Wide Blocks](https://wordpress.org/themes/tags/wide-blocks/)
+
+</div>
+
 ## Contributing
 
 If you would like to contribute code, the list of [open issues](https://github.com/leogopal/simplifii/issues) is a great place to start looking for tasks. [Pull requests](https://github.com/leogopal/simplifii/pulls) are preferred when linked to an existing issue.
