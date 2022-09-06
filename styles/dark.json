@@ -2,40 +2,27 @@
 	"customTemplates": [
 		{
 			"name": "blank",
-			"postTypes": [
-				"page",
-				"post"
-			],
+			"postTypes": ["page", "post"],
 			"title": "Blank"
 		},
 		{
 			"name": "blog-alternative",
-			"postTypes": [
-				"page"
-			],
+			"postTypes": ["page"],
 			"title": "Blog (Alternative)"
 		},
 		{
 			"name": "404",
-			"postTypes": [
-				"page"
-			],
+			"postTypes": ["page"],
 			"title": "404"
 		},
 		{
 			"name": "with-featured-image",
-			"postTypes": [
-				"page",
-				"post"
-			],
+			"postTypes": ["page", "post"],
 			"title": "With Featured Image"
 		},
 		{
 			"name": "with-cover-block",
-			"postTypes": [
-				"page",
-				"post"
-			],
+			"postTypes": ["page", "post"],
 			"title": "With Cover Block"
 		}
 	],
@@ -108,14 +95,7 @@
 					"slug": 80
 				}
 			],
-			"units": [
-				"%",
-				"px",
-				"em",
-				"rem",
-				"vh",
-				"vw"
-			]
+			"units": ["%", "px", "em", "rem", "vh", "vw"]
 		},
 		"typography": {
 			"dropCap": false,
