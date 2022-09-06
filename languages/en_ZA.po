@@ -1,0 +1,204 @@
+# Copyright (C) 2022 Leo Gopal
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Simplifii 1.3.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/simplifii\n"
+"POT-Creation-Date: 2022-09-06T06:00:48+00:00\n"
+"PO-Revision-Date: 2022-09-06 10:59+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_ZA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.1.1\n"
+"X-Domain: simplifii\n"
+
+#. Theme Name of the theme
+msgid "Simplifii"
+msgstr "Simplifii"
+
+#. Theme URI of the theme
+msgid "https://simplifii.leogopal.dev"
+msgstr "https://simplifii.leogopal.dev"
+
+#. Description of the theme
+msgid ""
+"Simplifii is a versatile block-based WordPress theme with Full Site Editing "
+"allowing you to customise to your hearts content - with WooCommerce support. "
+"You must have the Gutenberg Plugin Activate to use this theme before ready "
+"for full site editing on released WordPress."
+msgstr ""
+"Simplifii is a versatile block-based WordPress theme with Full Site Editing "
+"allowing you to customise to your hearts content - with WooCommerce support. "
+"You must have the Gutenberg Plugin Activate to use this theme before ready "
+"for full site editing on released WordPress."
+
+#. Author of the theme
+msgid "Leo Gopal"
+msgstr "Leo Gopal"
+
+#. Author URI of the theme
+msgid "https://leogopal.com"
+msgstr "https://leogopal.com"
+
+#: patterns/call-to-action.php:16
+msgctxt "sample content for call to action"
+msgid "Got any book recommendations?"
+msgstr "Got any book recommendations?"
+
+#: patterns/call-to-action.php:24
+msgctxt "sample content for call to action button"
+msgid "Get In Touch"
+msgstr "Get In Touch"
+
+#. Translators: WordPress link.
+#: patterns/footer-default.php:21
+msgid "Proudly powered by %s"
+msgstr "Proudly powered by %s"
+
+#: patterns/footer-default.php:22
+msgid "https://wordpress.org"
+msgstr "https://wordpress.org"
+
+#: patterns/hidden-404.php:10
+msgctxt "Error code for a webpage that is not found."
+msgid "404"
+msgstr "404"
+
+#: patterns/hidden-404.php:14
+msgctxt "Message to convey that a webpage could not be found"
+msgid "This page could not be found."
+msgstr "This page could not be found."
+
+#: patterns/hidden-404.php:21
+msgctxt "label"
+msgid "Search"
+msgstr "Search"
+
+#: patterns/hidden-404.php:21
+msgctxt "placeholder for search field"
+msgid "Search..."
+msgstr "Search..."
+
+#: patterns/hidden-404.php:21
+msgid "Search"
+msgstr "Search"
+
+#: patterns/post-meta.php:24
+msgctxt "Verb to explain the publication status of a post"
+msgid "Posted"
+msgstr "Posted"
+
+#: patterns/post-meta.php:25
+msgctxt "Date format for publication date of post"
+msgid "F j, Y"
+msgstr "F j, Y"
+
+#: patterns/post-meta.php:27
+msgctxt ""
+"Preposition to show the relationship between the post and its categories"
+msgid "in"
+msgstr "in"
+
+#: patterns/post-meta.php:34
+msgctxt "Preposition to show the relationship between the post and its author"
+msgid "by"
+msgstr "by"
+
+#: patterns/post-meta.php:45
+msgctxt "Label for a list of post tags"
+msgid "Tags:"
+msgstr "Tags:"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "DM Sans"
+msgstr "DM Sans"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "IBM Plex Mono"
+msgstr "IBM Plex Mono"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "System Font"
+msgstr "System Font"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Source Serif Pro"
+msgstr "Source Serif Pro"
+
+#: theme.json
+msgctxt "Color name"
+msgid "Base"
+msgstr "Base"
+
+#: theme.json
+msgctxt "Color name"
+msgid "Contrast"
+msgstr "Contrast"
+
+#: theme.json
+msgctxt "Color name"
+msgid "Primary"
+msgstr "Primary"
+
+#: theme.json
+msgctxt "Color name"
+msgid "Secondary"
+msgstr "Secondary"
+
+#: theme.json
+msgctxt "Color name"
+msgid "Tertiary"
+msgstr "Tertiary"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Blank"
+msgstr "Blank"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Blog (Alternative)"
+msgstr "Blog (Alternative)"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "404"
+msgstr "404"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "With Featured Image"
+msgstr "With Featured Image"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "With Cover Block"
+msgstr "With Cover Block"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header"
+msgstr "Header"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Footer"
+msgstr "Footer"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Comments"
+msgstr "Comments"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Post Meta"
+msgstr "Post Meta"
