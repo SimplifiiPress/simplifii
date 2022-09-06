@@ -1,0 +1,240 @@
+# Translation of Themes - Simplifii in English (South Africa)
+# This file is distributed under the same license as the Themes - Simplifii package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: +0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"Language: en_ZA\n"
+"Project-Id-Version: Themes - Simplifii\n"
+
+#. Description of the theme
+#, gp-priority: high
+msgid "Simplifii is a versatile block-based WordPress theme with Full Site Editing allowing you to customise to your hearts content - with WooCommerce support. You must have the Gutenberg Plugin Activate to use this theme before ready for full site editing on released WordPress."
+msgstr ""
+
+#. Theme Name of the theme
+#, gp-priority: high
+msgid "Simplifii"
+msgstr ""
+
+#: styles/example5.json
+msgctxt "Style variation name"
+msgid "Example 5"
+msgstr ""
+
+#: styles/example4.json
+msgctxt "Style variation name"
+msgid "Example 4"
+msgstr ""
+
+#: styles/example3.json
+msgctxt "Style variation name"
+msgid "Example 3"
+msgstr ""
+
+#: styles/example2.json
+msgctxt "Style variation name"
+msgid "Example 2"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Post Meta"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "With Cover Block"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "With Featured Image"
+msgstr ""
+
+#: patterns/post-meta.php
+msgctxt "Pattern title"
+msgid "Post Meta"
+msgstr ""
+
+#: patterns/post-meta.php:45
+msgctxt "Label for a list of post tags"
+msgid "Tags:"
+msgstr ""
+
+#: patterns/post-meta.php:34
+msgctxt "Preposition to show the relationship between the post and its author"
+msgid "by"
+msgstr ""
+
+#: patterns/post-meta.php:27
+msgctxt "Preposition to show the relationship between the post and its categories"
+msgid "in"
+msgstr ""
+
+#: patterns/post-meta.php:25
+msgctxt "Date format for publication date of post"
+msgid "F j, Y"
+msgstr ""
+
+#: patterns/post-meta.php:24
+msgctxt "Verb to explain the publication status of a post"
+msgid "Posted"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Comments"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Footer"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "404"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Blog (Alternative)"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Blank"
+msgstr ""
+
+#: theme.json styles/example2.json styles/example3.json styles/example4.json
+#: styles/example5.json
+msgctxt "Color name"
+msgid "Tertiary"
+msgstr ""
+
+#: theme.json styles/example2.json styles/example3.json styles/example4.json
+#: styles/example5.json
+msgctxt "Color name"
+msgid "Secondary"
+msgstr ""
+
+#: theme.json styles/example2.json styles/example3.json styles/example4.json
+#: styles/example5.json
+msgctxt "Color name"
+msgid "Primary"
+msgstr ""
+
+#: theme.json styles/example2.json styles/example3.json styles/example4.json
+#: styles/example5.json
+msgctxt "Color name"
+msgid "Contrast"
+msgstr ""
+
+#: theme.json styles/example2.json styles/example3.json styles/example4.json
+#: styles/example5.json
+msgctxt "Color name"
+msgid "Base"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Source Serif Pro"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "System Font"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "IBM Plex Mono"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "DM Sans"
+msgstr ""
+
+#: patterns/hidden-404.php
+msgctxt "Pattern title"
+msgid "Hidden 404"
+msgstr ""
+
+#: patterns/footer-default.php
+msgctxt "Pattern title"
+msgid "Default Footer"
+msgstr ""
+
+#: patterns/call-to-action.php
+msgctxt "Pattern title"
+msgid "Call to action"
+msgstr ""
+
+#: patterns/hidden-404.php:21
+msgid "Search"
+msgstr ""
+
+#: patterns/hidden-404.php:21
+msgctxt "placeholder for search field"
+msgid "Search..."
+msgstr ""
+
+#: patterns/hidden-404.php:21
+msgctxt "label"
+msgid "Search"
+msgstr ""
+
+#: patterns/hidden-404.php:14
+msgctxt "Message to convey that a webpage could not be found"
+msgid "This page could not be found."
+msgstr ""
+
+#: patterns/hidden-404.php:10
+msgctxt "Error code for a webpage that is not found."
+msgid "404"
+msgstr ""
+
+#: patterns/footer-default.php:22
+msgid "https://wordpress.org"
+msgstr ""
+
+#. Translators: WordPress link.
+#: patterns/footer-default.php:21
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: patterns/call-to-action.php:24
+msgctxt "sample content for call to action button"
+msgid "Get In Touch"
+msgstr ""
+
+#: patterns/call-to-action.php:16
+msgctxt "sample content for call to action"
+msgid "Got any book recommendations?"
+msgstr ""
+
+#. Theme URI of the theme
+#, gp-priority: low
+msgid "https://simplifii.leogopal.dev"
+msgstr ""
+
+#. Author URI of the theme
+#, gp-priority: low
+msgid "https://leogopal.com"
+msgstr ""
+
+#. Author of the theme
+#, gp-priority: low
+msgid "Leo Gopal"
+msgstr ""
