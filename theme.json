@@ -23,34 +23,21 @@
 			"title": "404"
 		},
 		{
-			"name": "single-post",
+			"name": "with-featured-image",
 			"postTypes": [
+				"page",
 				"post"
 			],
-			"title": "Single Post"
+			"title": "With Featured Image"
 		},
 		{
-			"name": "single-product",
+			"name": "with-cover-block",
 			"postTypes": [
-				"product"
+				"page",
+				"post"
 			],
-			"title": "Single Product"
+			"title": "With Cover Block"
 		}
-	],
-	"patterns": [
-		"header-3",
-		"partner-logos",
-		"black-bg-footer-with-social-icon",
-		"featured-section-two-columns",
-		"gradient-call-to-action",
-		"welcome-section-with-cover",
-		"3-column-pricing-table",
-		"lets-connect-call-to-action",
-		"contact-and-social-links",
-		"search-header",
-		"quote",
-		"timeline-block",
-		"fancy-hero-banne"
 	],
 	"settings": {
 		"appearanceTools": true,
@@ -80,76 +67,11 @@
 					"color": "#F6F6F6",
 					"name": "Tertiary",
 					"slug": "tertiary"
-				},
-				{
-					"color": "#ffffff",
-					"name": "White",
-					"slug": "white"
-				},
-				{
-					"color": "#f4f4f4",
-					"name": "Background",
-					"slug": "background"
-				},
-				{
-					"color": "#333333",
-					"name": "Text color",
-					"slug": "text-color"
-				},
-				{
-					"color": "#082A40",
-					"name": "Accent color",
-					"slug": "accent-color"
-				},
-				{
-					"color": "#163A59",
-					"name": "Sub accent color",
-					"slug": "sub-accent-color"
-				},
-				{
-					"color": "#2C5273",
-					"name": "Recommended color 01",
-					"slug": "recommended-color-01"
-				},
-				{
-					"color": "#7790A6",
-					"name": "Recommended color 02",
-					"slug": "recommended-color-02"
-				},
-				{
-					"color": "#B8CAD9",
-					"name": "Recommended color 03",
-					"slug": "recommended-color-03"
 				}
 			]
 		},
-		"custom": {
-			"default-style": {
-				"border": {
-					"color": "currentColor",
-					"style": "solid",
-					"width": "1px"
-				}
-			},
-			"font-primary": "var( --wp--preset--font-family--system-sans-serif )",
-			"font-weight": {
-				"bold": 700,
-				"normal": 400
-			},
-			"letter-spacing": {
-				"body": "0.015em",
-				"heading": "0.01em"
-			},
-			"line-height": {
-				"body": 1.6999999999999999555910790149937383830547332763671875,
-				"heading": 1.5
-			},
-			"spacing": {
-				"base": "15px"
-			}
-		},
 		"layout": {
-			"contentSize": "900px",
+			"contentSize": "650px",
 			"wideSize": "1000px"
 		},
 		"spacing": {
@@ -196,68 +118,9 @@
 			]
 		},
 		"typography": {
-			"customFontSize": true,
 			"dropCap": false,
 			"fluid": true,
 			"fontFamilies": [
-				{
-					"fontFace": [
-						{
-							"fontFamily": "Noto Serif",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "400",
-							"src": [
-								"file:./assets/fonts/noto_serif/NotoSerif-Regular.ttf"
-							]
-						},
-						{
-							"fontFamily": "Noto Serif",
-							"fontStretch": "normal",
-							"fontStyle": "italic",
-							"fontWeight": "400",
-							"src": [
-								"file:./assets/fonts/noto_serif/NotoSerif-Italic.ttf"
-							]
-						},
-						{
-							"fontFamily": "Noto Serif",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "700",
-							"src": [
-								"file:./assets/fonts/noto_serif/NotoSerif-Bold.ttf"
-							]
-						},
-						{
-							"fontFamily": "Noto Serif",
-							"fontStretch": "normal",
-							"fontStyle": "italic",
-							"fontWeight": "700",
-							"src": [
-								"file:./assets/fonts/noto_serif/NotoSerif-BoldItalic.ttf"
-							]
-						}
-					],
-					"fontFamily": "\"Noto Serif\", sans-serif",
-					"name": "Noto Serif",
-					"slug": "primary"
-				},
-				{
-					"fontFamily": "\"Helvetica Neue\", \"Helvetica\", \"Hiragino Sans\", \"Hiragino Kaku Gothic ProN\", \"Arial\", \"Yu Gothic\", \"Meiryo\", sans-serif",
-					"name": "System Sans Serif",
-					"slug": "system-sans-serif"
-				},
-				{
-					"fontFamily": "\"Times New Roman\", \"YuMincho\", \"Hiragino Mincho ProN\", \"Yu Mincho\", \"MS PMincho\", serif",
-					"name": "System Serif",
-					"slug": "system-serif"
-				},
-				{
-					"fontFamily": "ui-monospace, Menlo, Consolas, Monaco, \"Liberation Mono\", \"Lucida Console\", monospace",
-					"name": "System Monospace",
-					"slug": "system-monospace"
-				},
 				{
 					"fontFace": [
 						{
@@ -698,15 +561,30 @@
 		},
 		"elements": {
 			"button": {
+				":active": {
+					"color": {
+						"background": "var(--wp--preset--color--secondary)",
+						"text": "var(--wp--preset--color--base)"
+					}
+				},
+				":focus": {
+					"color": {
+						"background": "var(--wp--preset--color--contrast)",
+						"text": "var(--wp--preset--color--base)"
+					}
+				},
+				":hover": {
+					"color": {
+						"background": "var(--wp--preset--color--contrast)",
+						"text": "var(--wp--preset--color--base)"
+					}
+				},
 				"border": {
 					"radius": "0"
 				},
 				"color": {
 					"background": "var(--wp--preset--color--primary)",
 					"text": "var(--wp--preset--color--contrast)"
-				},
-				"typography": {
-					"fontSize": "var(--wp--preset--font-size--medium)"
 				}
 			},
 			"h1": {
@@ -787,10 +665,8 @@
 			}
 		},
 		"typography": {
-			"fontFamily": "var:preset|font-family|dm-sans",
-			"fontSize": "var:preset|font-size|small",
-			"fontStyle": "normal",
-			"fontWeight": "300",
+			"fontFamily": "var(--wp--preset--font-family--system-font)",
+			"fontSize": "var(--wp--preset--font-size--medium)",
 			"lineHeight": "1.6"
 		}
 	},
@@ -806,34 +682,14 @@
 			"title": "Footer"
 		},
 		{
-			"area": "header",
-			"name": "black-header",
-			"title": "Black Header"
-		},
-		{
-			"area": "footer",
-			"name": "black-footer",
-			"title": "Black Footer"
-		},
-		{
 			"area": "uncategorized",
 			"name": "comments",
 			"title": "Comments"
 		},
 		{
-			"area": "footer",
-			"name": "black-footer",
-			"title": "Black Footer"
-		},
-		{
-			"area": "header",
-			"name": "black-header",
-			"title": "Black Header"
-		},
-		{
-			"area": "general",
-			"name": "search",
-			"title": "Search"
+			"area": "uncategorized",
+			"name": "post-meta",
+			"title": "Post Meta"
 		}
 	],
 	"version": 2,
