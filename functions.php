@@ -13,6 +13,15 @@ if (!function_exists('sim_fs')) {
 			// Include Freemius SDK.
 			require_once dirname(__FILE__) . '/freemius/start.php';
 
+			add_submenu_page(
+				'themes.php',
+				__('Simplifii', 'simplifii'),
+				__('Simplifii', 'simplifii'),
+				'themes.php',
+				'simplifii',
+				'simplifii_callback'
+			);
+
 			$sim_fs = fs_dynamic_init(array(
 				'id'                  => '10999',
 				'slug'                => 'simplifii',
@@ -21,12 +30,11 @@ if (!function_exists('sim_fs')) {
 				'is_premium'          => false,
 				'has_addons'          => false,
 				'has_paid_plans'      => false,
-				'menu'	=> array(
-					'slug'	=> 'simplifii',
-					'first-path'	=> 'themes.php?page=simplifii',
-					'support'	=> false,
-					'parent'	=> array(
-						'slug'	=> 'themes.php',
+				'is_org_compliant'    => true,
+				'menu'                => array(
+					'slug'           => 'simplifii',
+					'parent'         => array(
+						'slug' => 'themes.php',
 					),
 				),
 			));
