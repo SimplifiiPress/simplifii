@@ -2,7 +2,6 @@
 
 <div aria-hidden="true">
 
-
 [![Total Downloads](http://poser.pugx.org/leogopal/simplifii/downloads)](https://packagist.org/packages/leogopal/simplifii)
 ![Auto Assign](https://github.com/leogopal/simplifii/actions/workflows/auto-assign.yml/badge.svg?style=for-the-badge)
 [![Code Quality PHP](https://github.com/leogopal/simplifii/actions/workflows/lint-php.yml/badge.svg?style=for-the-badge)](https://github.com/leogopal/simplifii/actions/workflows/lint-php.yml)
@@ -10,7 +9,6 @@
 [![DevSkim](https://github.com/leogopal/simplifii/actions/workflows/devskim.yml/badge.svg?style=for-the-badge)](https://github.com/leogopal/simplifii/actions/workflows/devskim.yml)
 [![Generate POT file](https://github.com/leogopal/simplifii/actions/workflows/pot.yml/badge.svg?style=for-the-badge)](https://github.com/leogopal/simplifii/actions/workflows/pot.yml)
 [![WordPress version checker](https://github.com/leogopal/simplifii/actions/workflows/wp-version-checker.yml/badge.svg?style=for-the-badge)](https://github.com/leogopal/simplifii/actions/workflows/wp-version-checker.yml)
-	
 [![Website](https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://leogopal.com)
 [![VS Code](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)]()
 [![Dev.to](https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white)]()
@@ -46,7 +44,7 @@
 [![PR closed](https://img.shields.io/github/issues-pr-closed/leogopal/simplifii.svg?style=for-the-badge)]()
 [![Codeable](https://shields.io/badge/codeable-grey?logo=data:image/webp;base64,UklGRpgAAABXRUJQVlA4TIsAAAAvGUAGEC9AkG3T+dOc8BrzTyBps61/gZc9ZAEmQxlAFPnz9BbA7rCUu1g4qm3baS5NwGEtBNQ5EiCJgO7fy2ujCIjoP9q2baMk5dZD9H/ThY7Q+Q7tvbcxWE9u7sjLmph7FwYTbi68TAwXfuDEiJ1j0dyr4iZlwkcFN8kpdLKRZCSaCWbcgqVSesgTAA==&style=for-the-badge)]()
 [![license](https://img.shields.io/github/license/leogopal/simplifii.svg?style=for-the-badge)]()
-	
+
 </div>
 
 This theme is designed as a block theme to support WordPress full site editing. You must have the Gutenberg Plugin Activate to use this theme before ready for full site editing on released WordPress.

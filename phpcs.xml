@@ -15,7 +15,6 @@
 	<ini name="memory_limit" value="256M"/>
 
 	<!-- Rule for checking the correct Text Domain. -->
-
 	<exclude-pattern>*/node_modules/*</exclude-pattern>
 	<exclude-pattern>*/freemius/*</exclude-pattern>
 

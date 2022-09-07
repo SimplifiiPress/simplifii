@@ -2,9 +2,14 @@
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
-
 if ( ! function_exists( 'sim_fs' ) ) {
-	// Create a helper function for easy SDK access.
+	/**
+	 * If the global variable  is not set, then include the Freemius SDK, initialize it with the
+	 * above parameters, and set the global variable  to the result of the initialization
+	 *
+	 * @return $sim_fs Freemius SDK instance
+	 */
+	 * /
 	function sim_fs() {
 		 global $sim_fs;
 
@@ -37,16 +42,9 @@ if ( ! function_exists( 'sim_fs' ) ) {
 
 	// Init Freemius.
 	sim_fs();
+
 	// Signal that SDK was initiated.
 	do_action( 'sim_fs_loaded' );
-}
-
-function my_premium_support_forum_url( $wp_org_support_forum_url ) {
-	return 'https://my-awesome-site.com/forum/';
-}
-
-if ( sim_fs()->is_premium() ) {
-	sim_fs()->add_filter( 'support_forum_url', 'my_premium_support_forum_url' );
 }
 
 function sim_fs_custom_connect_message_on_update(
@@ -58,7 +56,7 @@ function sim_fs_custom_connect_message_on_update(
 	$freemius_link
 ) {
 	return sprintf(
-		__( 'Hey %1$s' ) . ',<br>' .
+		__( 'Hey %1$s', 'simplifii' ) . ',<br>' .
 			__( 'Please help us improve %2$s! If you opt-in, some data about your usage of %2$s will be sent to %5$s. If you skip this, that\'s okay! %2$s will still work just fine.', 'simplifii' ),
 		$user_first_name,
 		'<b>' . $theme_title . '</b>',
@@ -69,6 +67,7 @@ function sim_fs_custom_connect_message_on_update(
 }
 
 sim_fs()->add_filter( 'connect_message_on_update', 'sim_fs_custom_connect_message_on_update', 10, 6 );
+
 /**
  * Simplifii functions and definitions
  *

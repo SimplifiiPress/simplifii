@@ -34,7 +34,6 @@
 	},
 	"devDependencies": {
 		"@wordpress/babel-preset-default": "^7.0.0",
-		"@wordpress/docgen": "^1.25.0",
 		"@wordpress/eslint-plugin": "^13.0.0",
 		"@wordpress/prettier-config": "^2.0.0",
 		"@wordpress/scripts": "^24.0.0",
